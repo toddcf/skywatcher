@@ -1,1 +1,7 @@
-/*Placeholder text*/
+body {
+	font-family: "Tangerine", serif;
+	background-color: #ffffff; /*White*/
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
