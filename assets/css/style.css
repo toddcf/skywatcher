@@ -11,3 +11,16 @@ body {
 	padding: 0;
 	background-color: #ffffff;
 }
+
+.weather {
+	/* Set color to important to override its default color: */
+	color: #4aa1f3 !important;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+/* Get the nav_list id and its two child elements: */
+#nav_list > li > a {
+	color: #4aa1f3 !important;
+	font-weight: 500;
+}
