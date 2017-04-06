@@ -1,18 +1,35 @@
+var xmlMode = "&xml";
+// Default is JSON. Concatonate xmlMode after city if you want to return XML instead.
+
 // URL Head:
 var url = "http://api.openweathermap.org/data/2.5/weather?";
 
-// Location:
-var city = "London,uk";
-var zip = "90066,us";
+// Default countryCode is United States.
+var countryCode = "us";
+
+// Location by City:
+var userCityName;
+var cityName = "q=" + userCityName + "," + countryCode;
+var userCityId;
+var cityID = "id=" + userCityId;
+
+// Location by Coordinates:
+var lat;
+var lon;
+var geo = "lat=" + lat + "&lon=" + lon;
+
+// Location by Zip:
+var userZip;
+var zip = "zip=" + userZip + "," + countryCode;
 
 // Units:
-var metric = "units=metric";
-var imperial = "units=imperial";
-var kelvin = "units=kelvin";
+var metric = "&units=metric"; // aka Celcius
+var imperial = "&units=imperial"; // aka Fahrenheit
+// If units are not specified, default is "standard," aka Kelvin.
 
 // API Key:
 var key = "&appid=OBFUSCATE";
 
-var apiQuery = url + city + imperial + key;
+var apiQuery = url + cityName + imperial + key;
 
 console.log(apiQuery);
