@@ -7,7 +7,7 @@ A weather forecasting app using AJAX and API.
 - jQuery
 - Twitter Bootstrap
 - AJAX
-- API
+- Open Weather Map API
 
 ## Future Iterations:
 - Navbar:

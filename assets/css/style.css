@@ -82,3 +82,8 @@ input[type="text"] {
 	height: 40px;
 	font-size: 20px;
 }
+
+#submitCity {
+	height: 40px;
+	font-weight: bold;
+}
