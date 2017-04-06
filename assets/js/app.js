@@ -11,7 +11,7 @@ $( document ).ready( function() {
 		var url = "http://api.openweathermap.org/data/2.5/weather?";
 
 		// Default countryCode is United States.
-		var countryCode = "us";
+		// var countryCode = "us";
 
 		// Location by City:
 		// var userCityName;
@@ -26,7 +26,7 @@ $( document ).ready( function() {
 
 		// Location by Zip:
 		var userZip;
-		var zip = "zip=" + userZip + "," + countryCode;
+		// var zip = "zip=" + userZip + "," + countryCode;
 
 		// Units:
 		var metric = "&units=metric"; // aka Celcius
@@ -40,11 +40,12 @@ $( document ).ready( function() {
 		// Only if "city" is not empty:
 		if ( city != "" ) {
 			$.ajax( {
-				url: "http://api.openweathermap.org/data/2.5/weather?" + city + imperial + sample,
+				url: "http://api.openweathermap.org/data/2.5/weather?q=" + city + imperial + sample,
 				type: "GET",
 				dataType: "jsonp",
 				success: function( data ) {
-					
+					console.log( data );
+					$( "#showWeather" ).html();
 				}
 
 			});
@@ -56,7 +57,7 @@ $( document ).ready( function() {
 	};
 
 	// Event listener for button click:
-	$( #submitCity ).click( function() {
+	$( "#submitCity" ).click( function() {
 		return getWeather();
 	});
 
