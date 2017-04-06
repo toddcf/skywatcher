@@ -40,7 +40,12 @@ $( document ).ready( function() {
 		// Only if "city" is not empty:
 		if ( city != "" ) {
 			$.ajax( {
-				url: "http://api.openweathermap.org/data/2.5/weather?" + city + imperial + sample;
+				url: "http://api.openweathermap.org/data/2.5/weather?" + city + imperial + sample,
+				type: "GET",
+				dataType: "jsonp",
+				success: function( data ) {
+					
+				}
 
 			});
 		}
