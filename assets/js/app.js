@@ -38,7 +38,16 @@ $( document ).ready( function() {
 
 	// AJAX Call:
 	function getWeather() {
+		var city = $( "#city" ).val();
 
+		// Only if "city" is not empty:
+		if ( city != "" ) {
+
+		}
+		// If "city" is empty:
+		else {
+			$( "#error" ).html( "<div>Please enter a city</div>" );
+		}
 	};
 
 	// Event listener for button click:
