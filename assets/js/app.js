@@ -1,35 +1,49 @@
-var xmlMode = "&xml";
-// Default is JSON. Concatonate xmlMode after city if you want to return XML instead.
+$( document ).ready( function() {
 
-// URL Head:
-var url = "http://api.openweathermap.org/data/2.5/weather?";
+	var xmlMode = "&xml";
+	// Default is JSON. Concatonate xmlMode after city if you want to return XML instead.
 
-// Default countryCode is United States.
-var countryCode = "us";
+	// URL Head:
+	var url = "http://api.openweathermap.org/data/2.5/weather?";
 
-// Location by City:
-var userCityName;
-var cityName = "q=" + userCityName + "," + countryCode;
-var userCityId;
-var cityID = "id=" + userCityId;
+	// Default countryCode is United States.
+	var countryCode = "us";
 
-// Location by Coordinates:
-var lat;
-var lon;
-var geo = "lat=" + lat + "&lon=" + lon;
+	// Location by City:
+	var userCityName;
+	var cityName = "q=" + userCityName + "," + countryCode;
+	var userCityId;
+	var cityID = "id=" + userCityId;
 
-// Location by Zip:
-var userZip;
-var zip = "zip=" + userZip + "," + countryCode;
+	// Location by Coordinates:
+	var lat;
+	var lon;
+	var geo = "lat=" + lat + "&lon=" + lon;
 
-// Units:
-var metric = "&units=metric"; // aka Celcius
-var imperial = "&units=imperial"; // aka Fahrenheit
-// If units are not specified, default is "standard," aka Kelvin.
+	// Location by Zip:
+	var userZip;
+	var zip = "zip=" + userZip + "," + countryCode;
 
-// API Key:
-var key = "&appid=OBFUSCATE";
+	// Units:
+	var metric = "&units=metric"; // aka Celcius
+	var imperial = "&units=imperial"; // aka Fahrenheit
+	// If units are not specified, default is "standard," aka Kelvin.
 
-var apiQuery = url + cityName + imperial + key;
+	// API Key:
+	var key = "&appid=OBFUSCATE";
 
-console.log(apiQuery);
+	var apiQuery = url + cityName + imperial + key;
+
+	console.log(apiQuery);
+
+	// AJAX Call:
+	function getWeather() {
+
+	};
+
+	// Event listener for button click:
+	$( #submitCity ).click( function() {
+		return getWeather();
+	});
+
+} );
