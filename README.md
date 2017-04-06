@@ -10,5 +10,4 @@ A weather forecasting app using AJAX and API.
 - Open Weather Map API
 
 ## Future Iterations:
-- Navbar:
-  - Add link to Open Weather Map.
+- Allow user to change units between C, F, and K.
