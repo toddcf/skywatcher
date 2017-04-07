@@ -1,10 +1,11 @@
 $( document ).ready( function() {
 
 	// Units:
+	var degrees = "&deg;";
 	var metric = "&units=metric"; // aka Celcius
-	var metricDeg = "&deg;C";
+	var metricDeg = degrees + " C";
 	var imperial = "&units=imperial"; // aka Fahrenheit
-	var imperialDeg = "&deg;F";
+	var imperialDeg = degrees + " F";
 	// If units are not specified, default is "standard," aka Kelvin.
 
 	// AJAX Call:
@@ -67,7 +68,7 @@ $( document ).ready( function() {
 				"<p>Pressure: " + data.main.pressure + " hPa</p>" +
 				"<p>Humidity: " + data.main.humidity + "%</p>" +
 				"<p>Wind Speed: " + data.wind.speed + " mph</p>" +
-				"<p>Wind Direction: " + data.wind.deg + " degrees</p>";
+				"<p>Wind Direction: " + data.wind.deg + degrees + "</p>";
 				
 
 	};
