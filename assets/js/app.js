@@ -64,7 +64,12 @@ $( document ).ready( function() {
 
 	// Display the results to HTML:
 	function showResults( data ) {
-		return "<p>Temperature: " + data.main.temp + imperialDeg + "</p>";
+		return	"<p>Temperature: " + data.main.temp + imperialDeg + "</p>" +
+				"<p>Pressure: " + data.main.pressure + " hPa</p>" +
+				"<p>Wind Speed: " + data.wind.speed + " mph</p>" +
+				"<p>Humidity: " + data.main.humidity + "%</p>";
+				
+
 	};
 
 	// Event listener for button click:
