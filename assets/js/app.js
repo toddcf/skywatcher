@@ -17,12 +17,7 @@ $( document ).ready( function() {
 		// URL Head:
 		var url = "http://api.openweathermap.org/data/2.5/weather?";
 
-		// Default countryCode is United States.
-		// var countryCode = "us";
-
 		// Location by City:
-		// var userCityName;
-		// var cityName = "q=" + userCityName + "," + countryCode;
 		var userCityId;
 		var cityID = "id=" + userCityId;
 
@@ -33,7 +28,7 @@ $( document ).ready( function() {
 
 		// Location by Zip:
 		var userZip;
-		// var zip = "zip=" + userZip + "," + countryCode;
+		// var zip = "zip=" + userZip + "," + sys.country;
 
 		// API Key:
 		var sample = "&appid=170e406aaa5d1d76d71ee5c974d5ed32";
@@ -64,7 +59,9 @@ $( document ).ready( function() {
 
 	// Display the results to HTML:
 	function showResults( data ) {
-		return	"<p>Temperature: " + data.main.temp + imperialDeg + "</p>" +
+		return	"<p><h3>Current Weather for " + data.name + ", " + data.sys.country + "</h3></p>" +
+				"<img src=\"" + data.weather.icon + "\">" +
+				"<p>Temperature: " + data.main.temp + imperialDeg + "</p>" +
 				"<p>Pressure: " + data.main.pressure + " hPa</p>" +
 				"<p>Wind Speed: " + data.wind.speed + " mph</p>" +
 				"<p>Humidity: " + data.main.humidity + "%</p>";
