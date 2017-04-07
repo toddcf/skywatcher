@@ -15,6 +15,7 @@ A weather forecasting app using AJAX and API.
 - Temperature: No decimal places.
 - Allow user to change units between C, F, and K.
 - Get weather icon (image tag) to work.
+- Capitalize the first letter of each word in data.weather[0].description.
 - Error message:
   - Change it to animate the existing "Enter City" text with a glowing red.
   - Remove the old div.
