@@ -61,6 +61,8 @@ $( document ).ready( function() {
 	function showResults( data ) {
 		return	"<p><h3>Current Weather for " + data.name + ", " + data.sys.country + "</h3></p>" +
 				"<img src=\"" + data.weather.icon + "\">" +
+				"<p>" + data.weather[0].main + "</p>" +
+				"<p>(" + data.weather[0].description + ")</p>" +
 				"<p>Temperature: " + data.main.temp + imperialDeg + "</p>" +
 				"<p>Pressure: " + data.main.pressure + " hPa</p>" +
 				"<p>Humidity: " + data.main.humidity + "%</p>" +
