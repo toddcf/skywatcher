@@ -91,7 +91,9 @@ input[type="text"] {
 #red {
 	/*color: #FF5049 !important;*/
 	animation-name: red;
-    animation-duration: 1s;
+    animation-duration: 0.07s;
+    animation-iteration-count: 12;
+    animation-direction: alternate;
 }
 /*
 #error {
