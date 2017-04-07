@@ -63,7 +63,7 @@ $( document ).ready( function() {
 	};
 
 	// Display the results to HTML:
-	function showResults() {
+	function showResults( data ) {
 		return "<p>Temperature: " + data.main.temp + imperialDeg + "</p>";
 	};
 
