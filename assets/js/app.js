@@ -1,5 +1,12 @@
 $( document ).ready( function() {
 
+	// Units:
+	var metric = "&units=metric"; // aka Celcius
+	var metricDeg = "&deg;C";
+	var imperial = "&units=imperial"; // aka Fahrenheit
+	var imperialDeg = "&deg;F";
+	// If units are not specified, default is "standard," aka Kelvin.
+
 	// AJAX Call:
 	function getWeather() {
 		var city = $( "#city" ).val();
@@ -28,11 +35,6 @@ $( document ).ready( function() {
 		var userZip;
 		// var zip = "zip=" + userZip + "," + countryCode;
 
-		// Units:
-		var metric = "&units=metric"; // aka Celcius
-		var imperial = "&units=imperial"; // aka Fahrenheit
-		// If units are not specified, default is "standard," aka Kelvin.
-
 		// API Key:
 		var sample = "&appid=170e406aaa5d1d76d71ee5c974d5ed32";
 		var key = "&appid=OBFUSCATE";
@@ -44,8 +46,12 @@ $( document ).ready( function() {
 				type: "GET",
 				dataType: "jsonp",
 				success: function( data ) {
-					console.log( data );
-					$( "#showWeather" ).html();
+					// Pass the data into the showResults function and store the result in a variable:
+					var widget = showResults( data );
+					// Display the results in HTML:
+					$( "#showWeather" ).html( widget );
+					// Clear the "city" field:
+					$( "#city" ).val( "" );
 				}
 
 			});
@@ -54,6 +60,11 @@ $( document ).ready( function() {
 		else {
 			$( "#error" ).html( "<div>Please enter a city</div>" );
 		}
+	};
+
+	// Display the results to HTML:
+	function showResults() {
+		return "<p>Temperature: " + data.main.temp + imperialDeg + "</p>";
 	};
 
 	// Event listener for button click:
