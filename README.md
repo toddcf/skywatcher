@@ -11,7 +11,6 @@ A weather forecasting app using AJAX and API.
 - Open Weather Map API
 
 ## Future Iterations:
-- Add "Enter" keypress event listener.
 - Pressure: Add comma placeholders.
 - Temperature: No decimal places.
 - Allow user to change units between C, F, and K.

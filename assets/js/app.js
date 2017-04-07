@@ -63,8 +63,9 @@ $( document ).ready( function() {
 				"<img src=\"" + data.weather.icon + "\">" +
 				"<p>Temperature: " + data.main.temp + imperialDeg + "</p>" +
 				"<p>Pressure: " + data.main.pressure + " hPa</p>" +
+				"<p>Humidity: " + data.main.humidity + "%</p>" +
 				"<p>Wind Speed: " + data.wind.speed + " mph</p>" +
-				"<p>Humidity: " + data.main.humidity + "%</p>";
+				"<p>Wind Direction: " + data.wind.deg + " degrees</p>";
 				
 
 	};
@@ -72,6 +73,13 @@ $( document ).ready( function() {
 	// Event listener for button click:
 	$( "#submitCity" ).click( function() {
 		return getWeather();
+	});
+
+	// Event listener for ENTER key:
+	document.addEventListener( "keypress", function( event ) {
+		if ( event.keyCode === 13 || event.which === 13 ) {
+			return getWeather();
+		}
 	});
 
 } );
