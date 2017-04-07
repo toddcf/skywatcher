@@ -54,8 +54,15 @@ $( document ).ready( function() {
 		}
 		// If "city" is empty:
 		else {
-			$( "#error" ).html( "<div>Please enter a city</div>" );
+			// $( "#error" ).html( "<div class='alert alert-danger' id='errorCity'>Please enter a city</div>" );
+			// Future Iterations: Instead of the code above, make the existing "Enter City Here" text glow red.
+			errorRed();
 		}
+	};
+
+	function errorRed() {
+		$( "#error" ).html( "<div id='red'>Enter City:</div>" );
+		// document.querySelector( DOMstrings.inputBtn ).classList.toggle( "red" );
 	};
 
 	// Display the results to HTML:

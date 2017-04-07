@@ -87,3 +87,21 @@ input[type="text"] {
 	height: 40px;
 	font-weight: bold;
 }
+
+#red {
+	/*color: #FF5049 !important;*/
+	animation-name: red;
+    animation-duration: 1s;
+}
+/*
+#error {
+	animation-name: red;
+    animation-duration: 1s;
+}
+*/
+
+
+@keyframes red {
+	from { color:  }
+	to { color: #FF5049 }
+}
