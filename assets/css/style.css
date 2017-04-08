@@ -82,6 +82,7 @@ ul#list_item {
 #cityDiv {
 	width: 60%;
 	margin: auto;
+	margin-bottom: 40px;
 	text-align: center;
 }
 
@@ -109,10 +110,24 @@ input[type="text"] {
 }
 
 #showWeather {
+	width: 60%;
 	margin: auto;
+	margin-bottom: 40px;
 	background-color: #4aa1f3;
 	color: white;
 	border-radius: 6px;
+}
+
+.weather-text {
+	padding-left: 50px;
+}
+
+#weather-text-top {
+	padding-top: 30px;
+}
+
+#weather-text-bottom {
+	padding-bottom: 30px;
 }
 
 footer {

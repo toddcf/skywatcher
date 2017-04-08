@@ -67,14 +67,14 @@ $( document ).ready( function() {
 
 	// Display the results to HTML:
 	function showResults( data ) {
-		return	"<p><h3>Current Weather for " + data.name + ", " + data.sys.country + "</h3></p>" +
-				"<img src=\"" + data.weather.icon + "\">" +
-				"<p>" + data.weather[0].main + " (" + data.weather[0].description + ")</p>" +
-				"<p>Temperature: " + data.main.temp + imperialDeg + "</p>" +
-				"<p>Pressure: " + data.main.pressure + " hPa</p>" +
-				"<p>Humidity: " + data.main.humidity + "%</p>" +
-				"<p>Wind Speed: " + data.wind.speed + " mph</p>" +
-				"<p>Wind Direction: " + data.wind.deg + degrees + "</p>";
+		return	"<p><h3 class='weather-text' id='weather-text-top'>Current Weather for " + data.name + ", " + data.sys.country + "</h3></p>" +
+				// "<img src=\"" + data.weather.icon + "\">" +
+				"<p class='weather-text'>" + data.weather[0].main + " (" + data.weather[0].description + ")</p>" +
+				"<p class='weather-text'>Temperature: " + data.main.temp + imperialDeg + "</p>" +
+				"<p class='weather-text'>Pressure: " + data.main.pressure + " hPa</p>" +
+				"<p class='weather-text'>Humidity: " + data.main.humidity + "%</p>" +
+				"<p class='weather-text'>Wind Speed: " + data.wind.speed + " mph</p>" +
+				"<p class='weather-text' id='weather-text-bottom'>Wind Direction: " + data.wind.deg + degrees + "</p>";
 				
 
 	};
