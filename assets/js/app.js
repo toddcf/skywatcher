@@ -12,15 +12,7 @@ $( document ).ready( function() {
 	// If units are not specified, default is "standard," aka Kelvin.
 
 	function footerInfo() {
-		$( ".footer" ).html( "<div class='container'><div class='row text-center'><p>Copyright &copy; 2017 - " + thisYear + " Todd Croak-Falen</p></div></div>" );
-		// return	"<p><h3 class='weather-text text-center' id='weather-text-top'>Current Weather for " + data.name + ", " + data.sys.country + "</h3></p>" +
-		// 		"<div class='text-center'><img src='http://openweathermap.org/img/w/" + data.weather[0].icon + ".png'></div>" +
-		// 		"<p class='weather-text text-center'>" + data.weather[0].main + " (" + data.weather[0].description + ")</p>" +
-		// 		"<p class='weather-text'>Temperature: " + data.main.temp + imperialDeg + "</p>" +
-		// 		"<p class='weather-text'>Pressure: " + data.main.pressure + " hPa</p>" +
-		// 		"<p class='weather-text'>Humidity: " + data.main.humidity + "%</p>" +
-		// 		"<p class='weather-text'>Wind Speed: " + data.wind.speed + " mph</p>" +
-		// 		"<p class='weather-text' id='weather-text-bottom'>Wind Direction: " + data.wind.deg + degrees + "</p>";
+		$( ".footer" ).html( "<div class='container'><div class='row text-center'><p>Copyright &copy; 2017 - " + thisYear + " <a href='http://www.tcf-webdesign.com' target='blank'><u>Todd Croak-Falen</u></a></p><p>View Code: <a href='https://github.com/toddcf/skywatcher-api' target='blank'><u>GitHub</u></a></p></div></div>" );
 	};
 
 	footerInfo();
