@@ -92,9 +92,13 @@ input[type="text"] {
 	font-size: 20px;
 }
 
-#submitCity {
+.submitAll {
 	height: 40px;
 	font-weight: bold;
+}
+
+#submitCity {
+	
 }
 
 #red {
