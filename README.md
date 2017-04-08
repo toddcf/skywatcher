@@ -12,6 +12,7 @@ A weather forecasting app using AJAX and API.
 
 ## Future Iterations:
 - UI:
+  - Reduce height of jumbotron and re-center the text vertically accordingly.
   - Pressure: Add comma placeholders.
   - Temperature: No decimal places.
   - Get weather icon (image tag) to work.
