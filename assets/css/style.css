@@ -1,4 +1,4 @@
-/*Not sure this html made any difference*/
+/* Not sure this html made any difference */
 html {
 	position: relative;
 	min-height: 100%;
@@ -138,9 +138,13 @@ footer {
 	background-color: #4aa1f3;
 	width: 100%;
 	height: 80px;
-	/*margin-top: 250px;*/
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	padding-top: 30px;
+	padding-top: 15px;
+}
+
+.footer {
+	color: white;
+	font-size: 18px;
 }

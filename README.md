@@ -21,8 +21,7 @@ A weather forecasting app using AJAX and API.
 - UX:
   - Allow user to change units between C, F, and K using a dropdown.
 - Footer:
-  - Link to Portfolio.
-  - Link to GitHub.
+  - Remove white space below footer. (Appeared when I moved footer contents into app.js file.)
 - Put "current" and "next five days" all on the same results page.
   - In fact, put everything on one page -- the home page.
   - Change background image/gif according to weather results.
