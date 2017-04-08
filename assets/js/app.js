@@ -11,30 +11,14 @@ $( document ).ready( function() {
 	var imperialDeg = degrees + " F";
 	// If units are not specified, default is "standard," aka Kelvin.
 
-	function footerInfo() {
+	// Immediately Invoked Function Expression (IIFE):
+	var footerInfo = ( function() {
 		$( ".footer" ).html( "<div class='container'><div class='row text-center'><p>Copyright &copy; 2017 - " + thisYear + " <a class='footer' href='http://www.tcf-webdesign.com' target='blank'><u>Todd Croak-Falen</u></a></p><p>View Code: <a class='footer' href='https://github.com/toddcf/skywatcher-api' target='blank'><u>GitHub</u></a></p></div></div>" );
-	};
-
-	footerInfo();
+	}) ();
 
 	// AJAX Call:
 	function getWeather() {
 		var city = $( "#city" ).val();
-
-		var xmlMode = "&xml";
-		// Default is JSON. Concatonate xmlMode after city if you want to return XML instead.
-
-		// URL Head:
-		var url = "http://api.openweathermap.org/data/2.5/weather?";
-
-		// Location by City:
-		var userCityId;
-		var cityID = "id=" + userCityId;
-
-		// Location by Coordinates:
-		var lat;
-		var lon;
-		var geo = "lat=" + lat + "&lon=" + lon;
 
 		// Location by Zip:
 		var userZip;
@@ -63,15 +47,17 @@ $( document ).ready( function() {
 		}
 		// If "city" is empty:
 		else {
-			// $( "#error" ).html( "<div class='alert alert-danger' id='errorCity'>Please enter a city</div>" );
-			// Future Iterations: Instead of the code above, make the existing "Enter City Here" text glow red.
 			errorRed();
 		}
 	};
 
+	function getForecast(){
+
+	};
+
+	// If city field is blank when submitted, make the "Enter City" text flash red:
 	function errorRed() {
 		$( "#error" ).html( "<div id='red'>Enter City:</div>" );
-		// document.querySelector( DOMstrings.inputBtn ).classList.toggle( "red" );
 	};
 
 	// Display the results to HTML:
