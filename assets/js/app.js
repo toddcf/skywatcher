@@ -68,7 +68,7 @@ $( document ).ready( function() {
 	// Display the results to HTML:
 	function showResults( data ) {
 		return	"<p><h3 class='weather-text text-center' id='weather-text-top'>Current Weather for " + data.name + ", " + data.sys.country + "</h3></p>" +
-				// "<img src=\"" + data.weather.icon + "\">" +
+				"<div class='text-center'><img src='http://openweathermap.org/img/w/" + data.weather[0].icon + ".png'></div>" +
 				"<p class='weather-text text-center'>" + data.weather[0].main + " (" + data.weather[0].description + ")</p>" +
 				"<p class='weather-text'>Temperature: " + data.main.temp + imperialDeg + "</p>" +
 				"<p class='weather-text'>Pressure: " + data.main.pressure + " hPa</p>" +

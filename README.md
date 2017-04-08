@@ -15,7 +15,7 @@ A weather forecasting app using AJAX and API.
   - Reduce height of jumbotron and re-center the text vertically accordingly.
   - Pressure: Add comma placeholders.
   - Temperature: No decimal places.
-  - Get weather icon (image tag) to work.
+  - Center weather icon better.
   - Capitalize the first letter of each word in data.weather[0].description.
   - Better color / image schemes.
 - UX:
