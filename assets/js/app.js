@@ -11,12 +11,12 @@ $( document ).ready( function() {
 	var imperialDeg = degrees + " F";
 	// If units are not specified, default is "standard," aka Kelvin.
 
-	// Immediately Invoked Function Expression (IIFE):
+	// Footer (IIFE):
 	var footerInfo = ( function() {
 		$( ".footer" ).html( "<div class='container'><div class='row text-center'><p>Copyright &copy; 2017 - " + thisYear + " <a class='footer' href='http://www.tcf-webdesign.com' target='blank'><u>Todd Croak-Falen</u></a></p><p>View Code: <a class='footer' href='https://github.com/toddcf/skywatcher-api' target='blank'><u>GitHub</u></a></p></div></div>" );
 	}) ();
 
-	// AJAX Call:
+	// AJAX call -- current weather:
 	function getWeather() {
 		var city = $( "#city" ).val();
 
@@ -28,7 +28,7 @@ $( document ).ready( function() {
 		var sample = "&appid=170e406aaa5d1d76d71ee5c974d5ed32";
 		var key = "&appid=OBFUSCATE";
 
-		// Only if "city" is not empty:
+		// Only if "city" is NOT empty, run the API query:
 		if ( city != "" ) {
 			$.ajax( {
 				url: "http://api.openweathermap.org/data/2.5/weather?q=" + city + imperial + sample,
@@ -51,11 +51,17 @@ $( document ).ready( function() {
 		}
 	};
 
-	function getForecast(){
+	function getForecast( id ){
+		this.id = id;
+		var days = document.getElementById( this.id ).text;
 
+		console.log( days );
+
+					    // var x = document.getElementById("btn1").value;
+					    // document.getElementById("demo").innerHTML = x;
 	};
 
-	// If city field is blank when submitted, make the "Enter City" text flash red:
+	// If city field is empty when submitted, make the "Enter City" text flash red:
 	function errorRed() {
 		$( "#error" ).html( "<div id='red'>Enter City:</div>" );
 	};
@@ -70,15 +76,19 @@ $( document ).ready( function() {
 				"<p class='weather-text'>Humidity: " + data.main.humidity + "%</p>" +
 				"<p class='weather-text'>Wind Speed: " + data.wind.speed + " mph</p>" +
 				"<p class='weather-text' id='weather-text-bottom'>Wind Direction: " + data.wind.deg + degrees + "</p>";
-				
-
 	};
 
-	// Event listener for button click:
+	// Event listener for CURRENT WEATHER button click:
 	$( "#submitCity" ).click( function() {
 		return getWeather();
 	});
 
+	// Event listener for WEATHER FORECAST button click:
+	$( ".submitForecast" ).click( function( id ) {
+		return getForecast();
+	});
+
+	// FIX THE FOLLOWING TO RUN WHICHEVER FUNCTION APPLIES:
 	// Event listener for ENTER key:
 	document.addEventListener( "keypress", function( event ) {
 		if ( event.keyCode === 13 || event.which === 13 ) {
