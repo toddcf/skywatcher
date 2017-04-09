@@ -8,7 +8,7 @@ A weather forecasting app using AJAX and API.
 - jQuery
 - Twitter Bootstrap
 - AJAX
-- Open Weather Map API
+- API (Open Weather Map)
 
 ## Future Iterations:
 - UI:
@@ -20,8 +20,8 @@ A weather forecasting app using AJAX and API.
   - Better color / image schemes.
 - UX:
   - Allow user to change units between C, F, and K using a dropdown.
+  - Put "current" and "next five days" all on the same results page.
+    - In fact, put everything on one page -- the home page.
+    - Change background image/gif according to weather results.
 - Footer:
   - Remove white space below footer. (Appeared when I moved footer contents into app.js file.)
-- Put "current" and "next five days" all on the same results page.
-  - In fact, put everything on one page -- the home page.
-  - Change background image/gif according to weather results.
