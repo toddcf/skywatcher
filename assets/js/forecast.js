@@ -1,17 +1,24 @@
 $( document ).ready( function() {
 
-	function getForecast( id ){
-		this.id = id;
-		var days = document.getElementById( this.id ).text;
+	function getForecast(){
+		var city = $( "#city" ).val();
+		var days = $( "#days" ).val();
 
-		console.log( days );
+		if ( city != "" && days != "" ) {
 
-					    // var x = document.getElementById("btn1").value;
-					    // document.getElementById("demo").innerHTML = x;
+		}
+		else {
+			errorRed();
+		}
+	};
+
+	// If city field is empty when submitted, make the "Enter City" text flash red:
+	function errorRed() {
+		$( "#error" ).html( "<div id='red'>Enter City and Number of Days to Forecast:</div>" );
 	};
 
 	// Event listener for WEATHER FORECAST button click:
-	$( ".submitForecast" ).click( function( id ) {
+	$( "#submitForecast" ).click( function() {
 		return getForecast();
 	});
 
