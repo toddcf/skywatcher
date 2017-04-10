@@ -16,7 +16,7 @@ $( document ).ready( function() {
 		var sample = "&appid=170e406aaa5d1d76d71ee5c974d5ed32";
 		var key = "&appid=OBFUSCATE";
 
-		if ( city != "" && days != "" ) {
+		if ( ( city != "" && days != "" ) && ( days >= 1 && days <= 16 ) ) {
 			$.ajax( {
 				url: "http://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + imperial + "&cnt=" + days + sample,
 				type: "GET",
@@ -36,9 +36,9 @@ $( document ).ready( function() {
 							table += "<td>" + data.list[i].temp.night + imperialDeg + "</td>";
 							table += "<td>" + data.list[i].temp.min + imperialDeg + "</td>";
 							table += "<td>" + data.list[i].temp.max + imperialDeg + "</td>";
-							table += "<td>" + data.list[i].pressure + "hPa</td>";
+							table += "<td>" + data.list[i].pressure + " hPa</td>";
 							table += "<td>" + data.list[i].humidity + "%</td>";
-							table += "<td>" + data.list[i].speed + "mph</td>";
+							table += "<td>" + data.list[i].speed + " mph</td>";
 							table += "<td>" + data.list[i].deg + degrees + "</td>";
 						table += "</tr>";
 					}
@@ -62,7 +62,7 @@ $( document ).ready( function() {
 
 	// If city field is empty when submitted, make the "Enter City" text flash red:
 	function errorRed() {
-		$( "#error" ).html( "<div id='red'>Enter City and Number of Days to Forecast:</div>" );
+		$( "#error" ).html( "<div id='red'>Enter City and Up To 16 Days To Forecast:</div>" );
 	};
 
 	// Event listener for WEATHER FORECAST button click:
