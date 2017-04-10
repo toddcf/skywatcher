@@ -12,10 +12,6 @@ $( document ).ready( function() {
 	function getWeather() {
 		var city = $( "#city" ).val();
 
-		// Location by Zip:
-		// var userZip;
-		// var zip = "zip=" + userZip + "," + sys.country;
-
 		// API Key:
 		var sample = "&appid=170e406aaa5d1d76d71ee5c974d5ed32";
 		var key = "&appid=OBFUSCATE";
