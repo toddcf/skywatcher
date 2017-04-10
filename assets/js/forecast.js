@@ -22,6 +22,28 @@ $( document ).ready( function() {
 				type: "GET",
 				dataType: "jsonp",
 				success: function( data ) {
+
+					// Create a variable to store an empty table:
+					var table = "";
+
+					// Use a for loop to generate the contents of the table:
+					for ( var i = 0; i < data.list.length; i++ ) {
+						table += "<tr>";
+							table += "<td>" + data.list[i].weather[0].icon + "</td>";
+							table += "<td>" + data.list[i].weather[0].main + "</td>";
+							table += "<td>" + data.list[i].weather[0].description + "</td>";
+							table += "<td>" + data.list[i].temp.morn + imperialDeg + "</td>";
+							table += "<td>" + data.list[i].temp.night + imperialDeg + "</td>";
+							table += "<td>" + data.list[i].temp.min + imperialDeg + "</td>";
+							table += "<td>" + data.list[i].temp.max + imperialDeg + "</td>";
+							table += "<td>" + data.list[i].pressure + "hPa</td>";
+							table += "<td>" + data.list[i].humidity + "%</td>";
+							table += "<td>" + data.list[i].speed + "mph</td>";
+							table += "<td>" + data.list[i].deg + degrees + "</td>";
+						table += "</tr>";
+					}
+
+
 					// Pass the data into the showResults function and store the result in a variable:
 					var widget = showResults( data );
 					// Display the results in HTML:
