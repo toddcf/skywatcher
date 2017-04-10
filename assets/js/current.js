@@ -13,7 +13,7 @@ $( document ).ready( function() {
 		var city = $( "#city" ).val();
 
 		// Location by Zip:
-		var userZip;
+		// var userZip;
 		// var zip = "zip=" + userZip + "," + sys.country;
 
 		// API Key:
@@ -41,16 +41,6 @@ $( document ).ready( function() {
 		else {
 			errorRed();
 		}
-	};
-
-	function getForecast( id ){
-		this.id = id;
-		var days = document.getElementById( this.id ).text;
-
-		console.log( days );
-
-					    // var x = document.getElementById("btn1").value;
-					    // document.getElementById("demo").innerHTML = x;
 	};
 
 	// If city field is empty when submitted, make the "Enter City" text flash red:
