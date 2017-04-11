@@ -24,14 +24,10 @@ $( document ).ready( function() {
 				dataType: "jsonp",
 				success: function( data ) {
 
-					// RIGHT HERE, I AM TRYING TO DISPLAY THE CITY NAME, BUT IT BREAKS MY ENTIRE CODE:
-					// Pass the data into the resultsDescription function and store the result in a variable:
-					// var widget = resultsDescription( data );
-					// Display the city name and days in HTML:
-					// $( "#resultsDescription" ).html( widget );
-					
 					// Create a variable to store an empty table:
 					var table = "";
+
+					var header = "<h2>" + days + "-Day Weather Forecast for " + data.city.name + ", " + data.city.country + ":</h2>";
 
 					// Use a for loop to generate the contents of the table:
 					for ( var i = 0; i < data.list.length; i++ ) {
@@ -51,11 +47,11 @@ $( document ).ready( function() {
 					}
 
 
-					// Display the table in HTML:
+					// Display the results in HTML:
 					$( "#forecastWeather" ).html( table );
-					// Clear the "city" field:
+					$( "#header" ).html( header );
+					// Clear the input fields:
 					$( "#city" ).val( "" );
-					// Clear the "days" field:
 					$( "#days" ).val( "" );
 				}
 			} )
@@ -68,11 +64,6 @@ $( document ).ready( function() {
 	// If city field is empty when submitted, make the "Enter City" text flash red:
 	function errorRed() {
 		$( "#error" ).html( "<div id='red'>Enter City and Up To 16 Days To Forecast:</div>" );
-	};
-
-	// SOMETHING IN THIS FUNCTION MAY NOT BE WORKING:
-	function resultsDescription( data ) {
-		return "<p><h3 class='weather-text text-center' id='weather-text-top'>" + days + "-Day Weather Forecast for:" + data.city.name + ", " + data.location.country + "</h3></p>";
 	};
 
 	// Event listener for WEATHER FORECAST button click:
