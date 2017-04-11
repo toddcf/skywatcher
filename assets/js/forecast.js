@@ -27,7 +27,7 @@ $( document ).ready( function() {
 					// Create a variable to store an empty table:
 					var table = "";
 
-					var header = "<h2>" + days + "-Day Weather Forecast for " + data.city.name + ", " + data.city.country + ":</h2>";
+					var tableHeader = "<h2>" + days + "-Day Weather Forecast for " + data.city.name + ", " + data.city.country + ":</h2>";
 
 					// Use a for loop to generate the contents of the table:
 					for ( var i = 0; i < data.list.length; i++ ) {
@@ -49,7 +49,7 @@ $( document ).ready( function() {
 
 					// Display the results in HTML:
 					$( "#forecastWeather" ).html( table );
-					$( "#header" ).html( header );
+					$( "#table-header" ).html( tableHeader );
 					// Clear the input fields:
 					$( "#city" ).val( "" );
 					$( "#days" ).val( "" );
