@@ -144,6 +144,26 @@ input[type="text"] {
 	margin-bottom: 40px;
 }
 
+table {
+	color: black;
+	font-family: helvetica, arial sans-serif;
+}
+
+th {
+	background-color: #4aa1f3;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+
+td {
+	background-color: #fafafa;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
 footer {
 	color: white;
 	background-color: #4aa1f3;
@@ -153,9 +173,10 @@ footer {
 	left: 0;
 	bottom: 0;
 	padding-top: 15px;
+	font-size: 15px;
 }
 
-.footer {
+.footer-text {
 	color: white;
-	font-size: 18px;
+	font-size: 15px;
 }

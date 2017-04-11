@@ -18,10 +18,9 @@ A weather forecasting app using AJAX and API.
   - Center weather icon better.
   - Capitalize the first letter of each word in data.weather[0].description.
   - Better color / image schemes.
+  - Display the DAY OF THE WEEK in the table in place of the WEATHER DESCRIPTION.
 - UX:
   - Allow user to change units between C, F, and K using a dropdown.
   - Put "current" and "next five days" all on the same results page.
     - In fact, put everything on one page -- the home page.
     - Change background image/gif according to weather results.
-- Footer:
-  - Remove white space below footer. (Appeared when I moved footer contents into app.js file.)
