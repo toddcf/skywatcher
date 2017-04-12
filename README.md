@@ -17,10 +17,9 @@ A weather forecasting app using AJAX and API.
   - Temperature: No decimal places.
   - Capitalize the first letter of each word in data.weather[0].description.
   - Better color / image schemes.
-    - Create your own background images that correspond with the API image ids and display according to the jsonp results.
+    - Change background image/gif according to weather results.
   - Display the DAY OF THE WEEK in the table in place of the WEATHER DESCRIPTION.
 - UX:
   - Allow user to change units between C, F, and K using a dropdown.
   - Put "current" and "forecast" all on the same results page.
     - In fact, put everything on one page -- the home page.
-    - Change background image/gif according to weather results.
