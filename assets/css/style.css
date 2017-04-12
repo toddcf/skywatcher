@@ -43,6 +43,12 @@ body {
 	margin-top: -15px;
 }
 
+#yahoo {
+	max-width: 134px;
+	max-height: 29px;
+	margin-top: 11px;
+}
+
 /* index.html */
 #headRow {
 	background: url(../img/bg.jpg) no-repeat;
