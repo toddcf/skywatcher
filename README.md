@@ -12,8 +12,7 @@ A weather forecasting app using AJAX and API.
 - API (Open Weather Map)
 
 ## Future Iterations:
-- FIX HEROKU DEPLOYMENT.
-  - Search button clicks and "Enter" keypress are not working.
+- Switch entire app over to Yahoo Weather API to solve the HTTPS issue with Heroku.
 - UI:
   - Pressure: Add comma placeholders.
   - Temperature: No decimal places.
