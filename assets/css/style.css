@@ -48,7 +48,7 @@ body {
 	background: url(../img/bg.jpg) no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 450px;
+	height: 250px;
 	margin-top: 0px;
 	margin-left: 0px;
 }
@@ -121,7 +121,6 @@ ul#list_item {
 	margin-bottom: 0px;
 	background-color: #4aa1f3;
 	color: white;
-	/*height: 150px;*/
 }
 
 .jumbo {
@@ -146,6 +145,7 @@ input[type="text"] {
 	font-weight: bold;
 }
 
+/* Error Handling */
 #red {
 	/*color: #FF5049 !important;*/
 	animation-name: red;
@@ -158,6 +158,7 @@ input[type="text"] {
 	from { color:  }
 	to { color: #FF5049 }
 }
+/* End Error Handling */
 
 #showWeather {
 	width: 60%;
