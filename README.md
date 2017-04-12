@@ -5,6 +5,7 @@ A weather forecasting app using AJAX and API.
 - HTML5
 - CSS3
 - JavaScript
+  - Typed.js
 - jQuery
 - Twitter Bootstrap
 - AJAX
