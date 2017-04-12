@@ -13,6 +13,7 @@ body {
 	padding: 0;
 }
 
+/* Navbar */
 #nav_bar {
 	margin-bottom: 0px;
 	padding: 0;
@@ -42,6 +43,7 @@ body {
 	margin-top: -15px;
 }
 
+/* index.html */
 #headRow {
 	background: url(../img/bg.jpg) no-repeat;
 	background-size: cover;
@@ -92,8 +94,9 @@ ul#list_item {
 
 .colDesc {
 	border: 1px solid #e7e7e7;
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 	height: 150px;
+	margin: 0 auto 20px auto;
 }
 
 .colDesc h3 {
@@ -102,6 +105,18 @@ ul#list_item {
 	text-transform: uppercase;
 }
 
+/* Font Awesome Icons */
+.info-icon {
+	text-align: center;
+}
+
+.info-icon i {
+	font-size: 30px;
+	margin-top: 15px;
+	color: #4aa1f3;
+}
+
+/* Current & Forecast Pages */
 .jumbotron {
 	margin-bottom: 0px;
 	background-color: #4aa1f3;
