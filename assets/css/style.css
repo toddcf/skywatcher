@@ -69,6 +69,11 @@ ul#list_item {
 	text-align: center;
 }
 
+.explanation {
+	width: 750px;
+	margin: 0 auto;
+}
+
 .jumbotron {
 	margin-bottom: 0px;
 	background-color: #4aa1f3;
@@ -96,10 +101,6 @@ input[type="text"] {
 .submitAll {
 	height: 40px;
 	font-weight: bold;
-}
-
-#submitCity {
-	
 }
 
 #red {
