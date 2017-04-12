@@ -69,9 +69,37 @@ ul#list_item {
 	text-align: center;
 }
 
+#welcome {
+	margin-top: 40px;
+}
+
+#welcome-paragraph {
+	font-size: 18px;
+	font-weight: normal;
+	padding: 12px 25px 40px 25px;
+	letter-spacing: 0.5px;
+}
+
 .explanation {
 	width: 750px;
 	margin: 0 auto;
+}
+
+#rowDiv {
+	margin: auto;
+	width: 100%;
+}
+
+.colDesc {
+	border: 1px solid #e7e7e7;
+	margin-bottom: 20px;
+	height: 150px;
+}
+
+.colDesc h3 {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 .jumbotron {
