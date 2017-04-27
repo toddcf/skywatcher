@@ -2,9 +2,9 @@ $( document ).ready( function() {
 
 	// Units:
 	var degrees = "&deg;";
-	var metric = "u=c"; // aka Celcius
+	var metric = "&units=metric"; // aka Celcius
 	var metricDeg = degrees + " C";
-	var imperial = "u=f"; // aka Fahrenheit
+	var imperial = "&units=imperial"; // aka Fahrenheit
 	var imperialDeg = degrees + " F";
 	// If units are not specified, default is "standard," aka Kelvin.
 
@@ -13,20 +13,13 @@ $( document ).ready( function() {
 		var city = $( "#city" ).val();
 
 		// API Key:
-		// var sample = "&appid=170e406aaa5d1d76d71ee5c974d5ed32";
-		var key = "9072920bbf8168c52e191b05f8bc257d515006ce";
-
-		// Yahoo Model:
-		var callbackFunction = function(data) {
-			var wind = data.query.results.channel.wind;
-			alert(wind.chill);
-		};
-		"https://query.yahooapis.com/v1/public/yql?q=select wind from weather.forecast where woeid in (select woeid from geo.places(1) where text='chicago, il')&format=json&callback=callbackFunction">
+		var sample = "&appid=170e406aaa5d1d76d71ee5c974d5ed32";
+		var key = "&appid=OBFUSCATE";
 
 		// Only if "city" is NOT empty, run the API query:
 		if ( city != "" ) {
 			$.ajax( {
-				url: "http://api.openweathermap.org/data/2.5/weather?q=" + city + imperial + key,
+				url: "http://api.openweathermap.org/data/2.5/weather?q=" + city + imperial + sample,
 				type: "GET",
 				dataType: "jsonp",
 				success: function( data ) {
