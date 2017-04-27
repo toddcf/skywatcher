@@ -13,6 +13,9 @@ A weather forecasting app using AJAX and API.
 
 ## Future Iterations:
 - Switch entire app over to Yahoo Weather API to solve the HTTPS issue with Heroku.
+  - https://developer.yahoo.com/weather/documentation.html
+  - https://www.programmableweb.com/news/how-to-build-yahoo-weather-hello-world-application-javascript/how-to/2016/01/25?page=2
+    - https://github.com/SensibleWood/yahoo-tutorial/blob/master/js/tutorial.js
 - UI:
   - Pressure: Add comma placeholders.
   - Temperature: No decimal places.
