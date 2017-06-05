@@ -6,18 +6,26 @@ html {
 
 body {
 	font-family: "Tangerine", serif;
-	background-color: #ffffff; /*White*/
+	/*background-color: #ffffff;*/
 	font-size: 20px;
 	/*Bottom = footer height*/
 	margin: 0 0 80px 0;
 	padding: 0;
 }
 
+.container {
+	height: 100vh;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
 /* Navbar */
 #nav_bar {
 	margin-bottom: 0px;
 	padding: 0;
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 	border: none;
 }
 
@@ -44,14 +52,14 @@ body {
 }
 
 /* index.html */
-#headRow {
+/*#headRow {
 	background: url(../img/bg.jpg) no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 250px;
 	margin-top: 0px;
 	margin-left: 0px;
-}
+}*/
 
 #colHeadText1 {
 	color: white;
@@ -117,11 +125,11 @@ ul#list_item {
 }
 
 /* Current & Forecast Pages */
-.jumbotron {
+/*.jumbotron {
 	margin-bottom: 0px;
 	background-color: #4aa1f3;
 	color: white;
-}
+}*/
 
 .jumbo {
 	font-size: 40px;
@@ -212,10 +220,10 @@ td {
 
 footer {
 	color: white;
-	background-color: #4aa1f3;
+	/*background-color: #4aa1f3;*/
 	width: 100%;
 	height: 80px;
-	position: absolute;
+	/*position: absolute;*/
 	left: 0;
 	bottom: 0;
 	padding-top: 15px;
