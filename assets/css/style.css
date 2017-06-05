@@ -1,4 +1,10 @@
-/* Not sure this html made any difference */
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
 html {
 	position: relative;
 	min-height: 100%;
@@ -52,7 +58,7 @@ body {
 }
 
 /* index.html */
-/*#headRow {
+/*.banner {
 	background: url(../img/bg.jpg) no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -91,12 +97,12 @@ ul#list_item {
 	letter-spacing: 0.5px;
 }
 
-.explanation {
+.description {
 	width: 750px;
 	margin: 0 auto;
 }
 
-#rowDiv {
+.features {
 	margin: auto;
 	width: 100%;
 }
