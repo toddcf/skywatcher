@@ -40,6 +40,7 @@ h2 {
 a,
 p {
 	color: #ffffff;
+	line-height: 170%;
 }
 
 /* Navbar */
@@ -134,6 +135,10 @@ ol ol,ol ul,ul ol,ul ul {margin-bottom:0}
 .description {
 	width: 750px;
 	margin: 0 auto;
+}
+
+.open-logo {
+	height: 20px;
 }
 
 .features {
