@@ -25,6 +25,8 @@ A weather forecasting app using AJAX and API.
 - Footer:
   - Get footer on single page. (Eliminate second background below footer.)
   - Eliminate gap above footer.
+- Buttons:
+  - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
 - UI:
   - Pressure: Add comma placeholders.
   - Temperature: No decimal places.
