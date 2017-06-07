@@ -14,6 +14,17 @@ A weather forecasting app using AJAX and API.
 ## Future Iterations:
 - Choose typography.
 - Format navbar.
+  - Icon color.
+  - Font color and style.
+  - Inline block display.
+  - Toggle dropdown.
+- Format H1.
+- Format temp, pressure, etc. typing.
+- Format descriptions.
+- Format boxes. (Middle one is lower for some reason.)
+- Footer:
+  - Get footer on single page. (Eliminate second background below footer.)
+  - Eliminate gap above footer.
 - UI:
   - Pressure: Add comma placeholders.
   - Temperature: No decimal places.

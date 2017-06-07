@@ -13,10 +13,8 @@ html {
 
 body {
 	font-family: "Tangerine", serif;
-	/*background-color: #ffffff;*/
 	font-size: 20px;
-	/*Bottom = footer height*/
-	margin: 0 0 80px 0;
+	margin: 0;
 	padding: 0;
 }
 
