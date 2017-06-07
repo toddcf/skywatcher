@@ -14,19 +14,19 @@ A weather forecasting app using AJAX and API.
 ## Future Iterations:
 - Choose typography.
 - Format navbar.
-  - Icon color: white.
+  - Make the background a translucent white so that the black text and logo stand out.
   - Font color and style.
   - Inline block display.
   - Toggle dropdown.
 - Format H1.
 - Format temp, pressure, etc. typing.
 - Format descriptions.
-- Format boxes. (Middle one is lower for some reason.)
 - Footer:
-  - Get footer on single page. (Eliminate second background below footer.)
-  - Eliminate gap above footer.
+  - Eliminate second background below footer.
 - Buttons:
   - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
+- Remove all code that is no longer used.
+- Add mobile responsiveness.
 - UI:
   - Pressure: Add comma placeholders.
   - Temperature: No decimal places.
