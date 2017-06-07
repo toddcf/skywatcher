@@ -14,7 +14,7 @@ A weather forecasting app using AJAX and API.
 ## Future Iterations:
 - Choose typography.
 - Format navbar.
-  - Icon color.
+  - Icon color: white.
   - Font color and style.
   - Inline block display.
   - Toggle dropdown.
