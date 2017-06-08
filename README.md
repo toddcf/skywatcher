@@ -22,9 +22,13 @@ A weather forecasting app using AJAX and API.
 - Format temp, pressure, etc. typing.
 - Format descriptions.
 - Footer:
-  - Eliminate second background below footer.
+  - Center.
+  - Update link.
+  - Typography.
 - Buttons:
   - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
+- Update CURRENT.HTML.
+- Update FORECAST.HTML.
 - Remove all code that is no longer used.
 - Add mobile responsiveness.
 - UI:
