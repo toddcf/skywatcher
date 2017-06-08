@@ -290,6 +290,7 @@ footer {
 	padding-top: 15px;
 	font-size: 65%;
 	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 }
 
 .footer-text {

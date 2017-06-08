@@ -14,10 +14,9 @@ A weather forecasting app using AJAX and API.
 ## Future Iterations:
 - Choose typography.
 - Format navbar.
-  - Make the background a translucent white so that the black text and logo stand out.
   - Font color and style.
   - Inline block display.
-  - Toggle dropdown.
+  - Fix toggle dropdown.
 - Format H1.
 - Format temp, pressure, etc. typing.
 - Format descriptions.
