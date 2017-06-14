@@ -9,6 +9,7 @@ html {
 	position: relative;
 	min-height: 100%;
 	font-size: 20px;
+	color: #fff;
 }
 
 body {
@@ -26,6 +27,8 @@ body {
 	background-attachment: fixed;
 }
 
+/* TEXT */
+
 h1 {
 	font-size: 300%;
 	font-weight: 300;
@@ -34,30 +37,44 @@ h1 {
 h2 {
 	font-size: 200%;
 	font-weight: 300;
-	color: #ffffff;
+	color: #fff;
 }
 
 a,
 p {
-	color: #ffffff;
+	color: #fff;
 	line-height: 170%;
+}
+
+.nav-left {
+	color: #000;
+	display: inline-block;
 }
 
 /* MAIN NAV */
 
-.main-nav {
-	float: right;
-	list-style: none; /* Remove bullet points */
-	margin-top: 55px;
+nav {
+	margin-bottom: 0px;
+	padding: 0;
+	border: none;
+	background: linear-gradient(rgba(256, 256, 256, 0.5), rgba(256, 256, 256, 0));
 }
 
-.main-nav li {
+.nav-right {
+	float: right;
+	list-style: none; /* Remove bullet points */
+	margin-top: 10px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.nav-right li {
 	display: inline-block;
 	margin-left: 40px;
 }
 
-.main-nav li a:link,
-.main-nav li a:visited {
+.nav-right li a:link,
+.nav-right li a:visited {
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -68,17 +85,9 @@ p {
 	padding: 8px 0;
 }
 
-.main-nav li a:hover,
-.main-nav li a:active {
+.nav-right li a:hover,
+.nav-right li a:active {
 	border-bottom: 2px solid #e67e22;
-}
-
-#nav_bar {
-	margin-bottom: 0px;
-	padding: 0;
-	/*background-color: #ffffff;*/
-	border: none;
-	background: linear-gradient(rgba(256, 256, 256, 0.9), rgba(256, 256, 256, 0));
 }
 
 .weather {
@@ -96,23 +105,22 @@ p {
 
 #logo {
 	max-height: 42px;
-	margin-right: 8px;
+	margin: 5px 10px 0 50px;
+	/*margin-right: 8px;*/
 	/* Position the logo next to the text: */
 	display: inline-block;
 	/* Move the text and logo up: */
 	/*margin-top: -15px;*/
 }
 
-/* index.html */
 
-.center-holder {
-	width: 1140px;
+/* INDEX */
+
+.colText {
+	width: 1100px;
 	height: 300px;
-	position: absolute;
-	top: 50%; /*Vertically aligns the top of this div with the center of its parent div*/
-	left: 50%; /*Horizontally aligns the left side of this dive with the center of its parent div*/
-	-webkit-transform: translate(-50%, -50%);
-	        transform: translate(-50%, -50%); /*Shifts the div so that its horizontal and vertical centers are what align with its parent div's center*/
+	/*margin-left: 200px;*/
+	margin: 100px auto;
 	/*width: 100%;
 	height: 250px;
 	margin-top: 0px;
@@ -308,8 +316,8 @@ td {
 	font-size: 18px;
 }
 
-a:link,
-a:visited {
+footer a:link,
+footer a:visited {
 	color: #fff;
 	text-decoration: none; /* No default underline */
 	border-bottom: 1px solid #fff; /* Our own custom underline */
@@ -318,8 +326,10 @@ a:visited {
 	transition: border-bottom 0.2s, color 0.2s; /* Transition takes 0.2 seconds. */
 }
 
-a:hover,
-a:active {
+/* FOOTER */
+
+footer a:hover,
+footer a:active {
 	color: #c0c0c0;
 	border-bottom: 1px solid transparent;
 }

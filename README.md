@@ -13,11 +13,10 @@ A weather forecasting app using AJAX and API.
 
 ## Future Iterations:
 - Format navbar first. (It affects how the rest displays.)
-  - Font color and style.
-  - Inline block display.
-  - Fix toggle dropdown.
+  - Vertically center the word "Skywatcher."
 - Format H1.
 - Format temp, pressure, etc. typing.
+  - Fix the weird glitch on the left side.
 - Format descriptions.
 - Buttons:
   - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
@@ -25,6 +24,7 @@ A weather forecasting app using AJAX and API.
 - Update FORECAST.HTML.
 - Remove all code that is no longer used.
 - Add mobile responsiveness.
+  - Nav: Toggle dropdown.
 - UI:
   - Pressure: Add comma placeholders.
   - Temperature: No decimal places.
