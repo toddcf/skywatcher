@@ -35,9 +35,9 @@ h1 {
 }
 
 h2 {
-	font-size: 200%;
+	font-size: 150%;
 	font-weight: 300;
-	color: #fff;
+	/*color: #fff;*/
 }
 
 a,
@@ -60,12 +60,21 @@ nav {
 	background: linear-gradient(rgba(256, 256, 256, 0.5), rgba(256, 256, 256, 0));
 }
 
+#logo {
+	max-height: 42px;
+	margin: 5px 10px 0 50px;
+	display: inline-block; /* Position the logo next to the text: */
+}
+
+.nav-left {
+	font-size: 140%;
+	line-height: 42px;
+}
+
 .nav-right {
 	float: right;
 	list-style: none; /* Remove bullet points */
-	margin-top: 10px;
-	margin-right: 50px;
-	margin-left: 50px;
+	margin: 10px 50px 0 50px;
 }
 
 .nav-right li {
@@ -98,16 +107,12 @@ nav {
 }
 
 /* Get the nav_list id and its two child elements: */
-#nav_list > li > a {
+/*#nav_list > li > a {*/
 	/*color: #4aa1f3 !important;*/
-	font-weight: 500;
-}
+	/*font-weight: 500;*/
+/*}*/
 
-#logo {
-	max-height: 42px;
-	margin: 5px 10px 0 50px;
-	display: inline-block; /* Position the logo next to the text: */
-}
+
 
 
 /* INDEX */
@@ -169,25 +174,18 @@ ol ol,ol ul,ul ol,ul ul {margin-bottom:0}
 }
 
 .description {
-/*	width: 750px;
-	margin: 0 auto;*/
-	/*width: 1140px;*/
-	/*height: 400px;*/
-	/*position: absolute;*/
-	/*top: 50%; Vertically aligns the top of this div with the center of its parent div*/
-	/*left: 50%; Horizontally aligns the left side of this dive with the center of its parent div*/
-	/*-webkit-transform: translate(-50%, -50%);*/
-	        /*transform: translate(-50%, -50%); Shifts the div so that its horizontal and vertical centers are what align with its parent div's center*/
+	width: 900px;
+	margin: 0 auto;
 }
 
 .open-logo {
 	height: 20px;
 }
 
-.features {
+/*.features {
 	margin: auto;
 	width: 100%;
-}
+}*/
 
 .colDesc {
 	border: 1px solid #e7e7e7;

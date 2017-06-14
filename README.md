@@ -16,12 +16,12 @@ A weather forecasting app using AJAX and API.
   - Delete duplicate navbar CSS codes.
   - Vertically center the word "Skywatcher."
 - INDEX:
-  - Format H1.
-  - Fix the weird glitch on the left side.
-  - Format temp, pressure, etc. typing.
-  - Format descriptions.
-  - Buttons:
-    - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
+  - Banner:
+    - Fix the weird glitch on the left side.
+  - Description:
+    - Positioning (center, spacing, etc.).
+    - Buttons:
+      - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
 - CURRENT.HTML:
 - FORECAST.HTML:
 - Remove all code that is no longer used.
