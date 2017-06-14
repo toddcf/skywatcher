@@ -5,9 +5,9 @@ $( document ).ready( function() {
 
 	// Temperature
 	setTimeout( function () {
-		$( "#colHeadText1" ).typed( {
+		$( ".colHeadText" ).typed( {
 			strings: [ "Pulling Weather Data From All Over The Globe." ],
-			typeSpeed: 0
+			typeSpeed: speed2
 		})
 	}, 0 );
 

@@ -106,38 +106,30 @@ nav {
 #logo {
 	max-height: 42px;
 	margin: 5px 10px 0 50px;
-	/*margin-right: 8px;*/
-	/* Position the logo next to the text: */
-	display: inline-block;
-	/* Move the text and logo up: */
-	/*margin-top: -15px;*/
+	display: inline-block; /* Position the logo next to the text: */
 }
 
 
 /* INDEX */
 
-.colText {
-	width: 1100px;
-	height: 300px;
-	/*margin-left: 200px;*/
+.banner {
+	width: 1050px;
+	height: 125px;
 	margin: 100px auto;
-	/*width: 100%;
-	height: 250px;
-	margin-top: 0px;
-	margin-left: 0px;*/
+	padding: 6px;
 }
 
-#colHeadText1 {
+.colHeadText {
 	color: white;
 	padding-top: 30px;
 	font-size: 50px;
 }
 
-#colHeadText2 {
+/*#colHeadText2 {
 	color: white;
 	padding-top: 20px;
 	padding-bottom: 30px;
-}
+}*/
 
 ul#list_item {
 	color: white;

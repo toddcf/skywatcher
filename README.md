@@ -12,7 +12,8 @@ A weather forecasting app using AJAX and API.
 - API (Open Weather Map)
 
 ## Future Iterations:
-- Navbar:
+- NAVBAR:
+  - Delete duplicate navbar CSS codes.
   - Vertically center the word "Skywatcher."
 - INDEX:
   - Format H1.
