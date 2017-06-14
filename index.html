@@ -41,37 +41,48 @@
 
 	<body>
 		
-		<div class="container">
+		<div class="container"> <!-- Entire page inside this container. -->
 
 			<nav class="navbar navbar-default" id="nav_bar">
 
+				<div class="row">
+					<img src="assets/img/logo.png" alt="Logo" class="img-responsive" id="logo"><strong>Skywatcher</strong>
+					<ul class="main-nav js--main-nav">
+						<li><a href="current.html" class="js--scroll-to-features">Current</a></li>
+						<li><a href="forecast.html" class="js--scroll-to-works">Forecast</a></li>
+						<li><a href="http://www.openweathermap.org" target="blank">Open Weather Map</a></li>
+					</ul>
+					<!-- Mobile-Responsive Navigation -->
+					<a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+				</div>
+
 				<!-- Using "container" intead of "container-fluid" so that the text has some margin at the edges. -->
-				<div class="inner-container">
-					<div class="navbar-header">
-						<a href="" class="navbar-brand navbar-link weather">
-							<img src="assets/img/logo.png" alt="Logo" class="img-responsive" id="logo"><strong>Skywatcher</strong>
-						</a>
-						<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="navcol">
-							<span class="sr-only">Toggle Navigation</span>
+				<!-- <div class="inner-container"> -->
+					<!-- <div class="navbar-header"> -->
+						<!-- <a href="" class="navbar-brand navbar-link weather"> -->
+							<!-- <img src="assets/img/logo.png" alt="Logo" class="img-responsive" id="logo"><strong>Skywatcher</strong> -->
+						<!-- </a> -->
+						<!-- <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="navcol"> -->
+							<!-- <span class="sr-only">Toggle Navigation</span> -->
 							<!-- When collapsed, show three bars: -->
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
+							<!-- <span class="icon-bar"></span> -->
+							<!-- <span class="icon-bar"></span> -->
+							<!-- <span class="icon-bar"></span> -->
+						<!-- </button> -->
+					<!-- </div> -->
 
 					<!-- This "navcol" id targets the data-target in the button above: -->
-					<div class="collapse navbar-collapse" id="navcol">
+					<!-- <div class="collapse navbar-collapse" id="navcol"> -->
 						<!-- Display the links on the right: -->
-						<ul class="nav navbar-nav navbar-right" id="nav_list">
+						<!-- <ul class="nav navbar-nav navbar-right" id="nav_list"> -->
 							<!-- Link to "current weather" page: -->
-							<li><a href="current.html">Current</a></li>
-							<li><a href="forecast.html">Forecast</a></li>
-							<li><a href="http://www.openweathermap.org" target="blank">Open Weather Map</a></li>
-						</ul>
-					</div>
+							<!-- <li><a href="current.html">Current</a></li> -->
+							<!-- <li><a href="forecast.html">Forecast</a></li> -->
+							<!-- <li><a href="http://www.openweathermap.org" target="blank">Open Weather Map</a></li> -->
+						<!-- </ul> -->
+					<!-- </div> -->
 
-				</div>
+				<!-- </div> -->
 				
 			</nav>
 
@@ -137,7 +148,7 @@
 			<footer>
 
 				<div class="col span-1-of-2">
-					<h3>Copyright &copy; 2017<span class="currentYear"></span> <a href="http://www.tcf-webdesign.com" target="_blank">Todd Croak-Falen</a></h3>
+					<h3>&copy; Copyright 2017 <span class="currentYear"></span> <a href="http://www.tcf-webdesign.com" target="_blank">Todd Croak-Falen</a></h3>
 				</div>
 
 				<div class="col span-1-of-2">
@@ -146,7 +157,7 @@
 
 			</footer>
 
-		</div>
+		</div> <!-- Close entire-page container. -->
 
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>

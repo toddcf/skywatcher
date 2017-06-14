@@ -12,18 +12,13 @@ A weather forecasting app using AJAX and API.
 - API (Open Weather Map)
 
 ## Future Iterations:
-- Choose typography.
-- Format navbar.
+- Format navbar first. (It affects how the rest displays.)
   - Font color and style.
   - Inline block display.
   - Fix toggle dropdown.
 - Format H1.
 - Format temp, pressure, etc. typing.
 - Format descriptions.
-- Footer:
-  - Center.
-  - Update link.
-  - Typography.
 - Buttons:
   - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
 - Update CURRENT.HTML.
