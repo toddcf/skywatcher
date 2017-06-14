@@ -12,19 +12,22 @@ A weather forecasting app using AJAX and API.
 - API (Open Weather Map)
 
 ## Future Iterations:
-- Format navbar first. (It affects how the rest displays.)
+- Navbar:
   - Vertically center the word "Skywatcher."
-- Format H1.
-- Format temp, pressure, etc. typing.
+- INDEX:
+  - Format H1.
   - Fix the weird glitch on the left side.
-- Format descriptions.
-- Buttons:
-  - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
-- Update CURRENT.HTML.
-- Update FORECAST.HTML.
+  - Format temp, pressure, etc. typing.
+  - Format descriptions.
+  - Buttons:
+    - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
+- CURRENT.HTML:
+- FORECAST.HTML:
 - Remove all code that is no longer used.
 - Add mobile responsiveness.
-  - Nav: Toggle dropdown.
+  - Nav:
+    - Toggle dropdown.
+    - jQuery window resize.
 - UI:
   - Pressure: Add comma placeholders.
   - Temperature: No decimal places.
