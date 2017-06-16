@@ -45,7 +45,9 @@ h2 {
 /* BUTTONS */
 
 .btn {
-	margin: 0 auto;
+	/* There's gotta be a much better way to do this:; */
+	margin-top: 5px;
+	margin-left: 100px;
 }
 
 /*The links will look the same before and after they've been clicked:*/
@@ -237,9 +239,12 @@ nav {
 	line-height: 170%;
 	text-align: justify;
 	font-size: 90%;
-	font-weight: 400;
-	
+	font-weight: 400;	
 	letter-spacing: 1px;
+}
+
+.btn-padding {
+	padding-top: 15px;
 }
 
 .open-logo {
