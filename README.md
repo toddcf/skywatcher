@@ -12,18 +12,15 @@ A weather forecasting app using AJAX and API.
 - API (Open Weather Map)
 
 ## Future Iterations:
-- NAVBAR:
-  - Delete duplicate navbar CSS codes.
-  - Vertically center the word "Skywatcher." (See old CURRENT and FORECAST.)
 - INDEX:
-  - Banner:
-    - Fix the weird glitch on the left side.
   - Description:
     - Align column text to top of each column.
     - Buttons:
       - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
 - CURRENT.HTML:
+  - 
 - FORECAST.HTML:
+  - 
 - Remove all code that is no longer used.
 - Add mobile responsiveness.
   - Nav:
