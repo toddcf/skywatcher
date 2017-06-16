@@ -46,11 +46,6 @@ p {
 	line-height: 170%;
 }
 
-.nav-left {
-	color: #000;
-	display: inline-block;
-}
-
 /* MAIN NAV */
 
 nav {
@@ -59,6 +54,8 @@ nav {
 	border: none;
 	background: linear-gradient(rgba(256, 256, 256, 0.5), rgba(256, 256, 256, 0));
 }
+
+/* Nav-Left */
 
 #logo {
 	max-height: 42px;
@@ -69,7 +66,11 @@ nav {
 .nav-left {
 	font-size: 140%;
 	line-height: 42px;
+	color: #000;
+	display: inline-block;
 }
+
+/* Nav-Right */
 
 .nav-right {
 	float: right;
@@ -99,13 +100,6 @@ nav {
 	border-bottom: 2px solid #e67e22;
 }
 
-.weather {
-	/* Set color to important to override its default color: */
-	color: #fff !important;
-	font-size: 125%;
-	font-weight: 600;
-}
-
 /* Get the nav_list id and its two child elements: */
 /*#nav_list > li > a {*/
 	/*color: #4aa1f3 !important;*/
@@ -117,10 +111,17 @@ nav {
 
 /* INDEX */
 
+/*.weather {*/
+	/* Set color to important to override its default color: */
+	/*color: #fff !important;*/
+	/*font-size: 125%;*/
+	/*font-weight: 600;*/
+/*}*/
+
 .banner {
 	width: 1050px;
 	height: 125px;
-	margin: 100px auto;
+	margin: 50px auto 150px auto;
 	padding: 6px;
 }
 
@@ -174,8 +175,15 @@ ol ol,ol ul,ul ol,ul ul {margin-bottom:0}
 }
 
 .description {
-	width: 900px;
-	margin: 0 auto;
+	width: 75%;
+	margin: 180px auto 0 auto;
+}
+
+.description-col {
+	display: inline-block;
+	padding: 8px;
+	text-align: justify;
+	margin: 4px;
 }
 
 .open-logo {

@@ -14,7 +14,7 @@ A weather forecasting app using AJAX and API.
 ## Future Iterations:
 - NAVBAR:
   - Delete duplicate navbar CSS codes.
-  - Vertically center the word "Skywatcher."
+  - Vertically center the word "Skywatcher." (See old CURRENT and FORECAST.)
 - INDEX:
   - Banner:
     - Fix the weird glitch on the left side.
