@@ -12,11 +12,10 @@ A weather forecasting app using AJAX and API.
 - API (Open Weather Map)
 
 ## Future Iterations:
+- Fix favicon.
 - INDEX:
-  - Description:
-    - Align column text to top of each column.
-    - Buttons:
-      - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
+  - Buttons:
+    - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
 - CURRENT.HTML:
   - 
 - FORECAST.HTML:

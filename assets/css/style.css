@@ -46,7 +46,7 @@ h2 {
 
 .btn {
 	/* There's gotta be a much better way to do this:; */
-	margin-top: 5px;
+	/*margin-top: 5px;*/
 	margin-left: 100px;
 }
 
@@ -244,7 +244,7 @@ nav {
 }
 
 .btn-padding {
-	padding-top: 15px;
+	padding-top: 20px;
 }
 
 .open-logo {
