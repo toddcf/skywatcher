@@ -19,7 +19,7 @@ A weather forecasting app using AJAX and API.
   - Banner:
     - Fix the weird glitch on the left side.
   - Description:
-    - Positioning (center, spacing, etc.).
+    - Align column text to top of each column.
     - Buttons:
       - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
 - CURRENT.HTML:
