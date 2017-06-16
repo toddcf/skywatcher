@@ -171,13 +171,16 @@ nav {
 
 .description-col {
 	display: inline-block;
-	text-align: justify;
-	margin: 4px;
-
+	height: 175px;
+	margin: 0 4px;	
+	padding: 12px 25px 40px 25px;
+	
 	font-size: 90%;
 	font-weight: 400;
-	padding: 12px 25px 40px 25px;
+	text-align: justify;
 	letter-spacing: 1px;
+
+	border: 1px solid #e7e7e7;
 }
 
 .intro {
@@ -327,20 +330,16 @@ footer a:active {
 }
 
 footer {
-	color: white;
-	/*background-color: #4aa1f3;*/
 	width: 100%;
 	height: 80px;
 	position: absolute;
 	left: 0;
 	bottom: 0;
 	padding-top: 15px;
-	font-size: 65%;
+	
+	font-size: 75%;
+	font-weight: 400;
 	text-align: center;
+	
 	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-}
-
-.footer-text {
-	color: white;
-	font-size: 15px;
 }
