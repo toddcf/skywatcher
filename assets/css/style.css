@@ -42,6 +42,10 @@ h2 {
 	font-size: 150%;
 }
 
+a {
+	text-decoration: none;
+}
+
 /* BUTTONS */
 
 .btn {
@@ -119,8 +123,12 @@ nav {
 .nav-left {
 	font-size: 140%;
 	line-height: 42px;
-	color: #000;
+	color: #000 !important;
 	display: inline-block;
+}
+
+.nav-left a:visited {
+	color: #000 !important;
 }
 
 /* Nav-Right */
