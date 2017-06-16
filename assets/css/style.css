@@ -29,21 +29,22 @@ body {
 
 /* TEXT */
 
+h1,
+h2 {
+	font-weight: 300;
+}
+
 h1 {
 	font-size: 300%;
-	font-weight: 300;
 }
 
 h2 {
 	font-size: 150%;
-	font-weight: 300;
-	/*color: #fff;*/
 }
 
-a,
-p {
+/* Change these to buttons, then delete this */
+a {
 	color: #fff;
-	line-height: 170%;
 }
 
 /* MAIN NAV */
@@ -171,20 +172,22 @@ nav {
 
 .description-col {
 	display: inline-block;
+	vertical-align: top;
 	height: 175px;
-	margin: 0 4px;	
-	padding: 12px 25px 40px 25px;
+	margin: 0 4px;
+	padding: 15px;
+	/*padding: 12px 25px 40px 25px;*/
 	
 	font-size: 90%;
 	font-weight: 400;
 	text-align: justify;
 	letter-spacing: 1px;
 
-	border: 1px solid #e7e7e7;
+	/*border: 1px solid #e7e7e7;*/
 }
 
 .intro {
-	
+	line-height: 170%;
 }
 
 .open-logo {
@@ -217,7 +220,9 @@ nav {
 	color: #4aa1f3;
 }*/
 
-/* Current & Forecast Pages */
+
+/* CURRENT & FORECAST PAGES */
+
 /*.jumbotron {
 	margin-bottom: 0px;
 	background-color: #4aa1f3;
