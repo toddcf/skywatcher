@@ -295,8 +295,14 @@ nav {
 }*/
 
 .jumbo {
-	font-size: 40px;
-	font-weight: 600;
+	/*font-size: 40px;*/
+	/*font-weight: 600;*/
+	text-align: center;
+	margin: 75px auto 0 auto;
+}
+
+.main {
+	margin: 0 auto;
 }
 
 #cityDiv {
@@ -311,10 +317,10 @@ input[type="text"] {
 	font-size: 20px;
 }
 
-.submitAll {
-	height: 40px;
-	font-weight: bold;
-}
+/*.submitAll {*/
+	/*height: 40px;*/
+	/*font-weight: bold;*/
+/*}*/
 
 /* Error Handling */
 #red {

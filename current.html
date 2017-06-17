@@ -48,9 +48,9 @@
 				<div class="row">
 					<img src="assets/img/logo.png" alt="Logo" class="img-responsive" id="logo">
 					<div class="nav-left"><a href="index.html">Skywatcher</a></div>
-					<ul class="nav-right js--nav-right">
-						<li><a href="current.html" class="js--scroll-to-features">Current</a></li>
-						<li><a href="forecast.html" class="js--scroll-to-works">Forecast</a></li>
+					<ul class="nav-right">
+						<li><a href="current.html">Current</a></li>
+						<li><a href="forecast.html">Forecast</a></li>
 						<li><a href="http://www.openweathermap.org" target="blank">Open Weather Map</a></li>
 					</ul>
 					<!-- Mobile-Responsive Navigation -->
@@ -59,20 +59,24 @@
 				
 			</nav>
 
-			<div class="jumbotron jumbo">
-				<h2 class="jumbo text-center">Get Current Weather:</h2>
+			<div class="row jumbo">
+				<h1>Get Current Weather:</h1>
 			</div>
 
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
+			<div class="row main">
+
+				<!-- <div class="row"> -->
+					<!-- <div class="col-md-12"> -->
 						<h3 class="text-center text-primary" id="error">Enter City:</h3>
-					</div>
-					<div class="row form-group form-inline" id="cityDiv">
+					<!-- </div> -->
+					<!-- <div class="row form-group form-inline" id="cityDiv"> -->
+					<div id="cityDiv">
 						<input type="text" name="city" id="city" class="form-control" placeholder="City Name">
-						<button id="submitCity" class="btn btn-primary submitAll">Search</button>
+						<!-- <a class="btn btn-full" href="current.html">Current</a> -->
+						<!-- button id="submitCity" -->
+						<a class="btn btn-full submitAll" id="submitCity">Search</a>
 					</div>
-				</div>
+				<!-- </div> -->
 
 				<!-- Empty div to display results: -->
 				<div class="row" id="showWeather"></div>
