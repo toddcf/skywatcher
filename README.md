@@ -17,9 +17,9 @@ A weather forecasting app using AJAX and API.
   - Buttons:
     - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
 - CURRENT.HTML:
-  - 
+  - Make input fields taller.
 - FORECAST.HTML:
-  - 
+  - Make input fields taller.
 - Remove all code that is no longer used.
 - Add mobile responsiveness.
   - Nav:
