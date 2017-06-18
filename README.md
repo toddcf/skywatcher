@@ -19,7 +19,7 @@ A weather forecasting app using AJAX and API.
   - Make input fields taller.
 - FORECAST.HTML:
   - Make input fields taller.
-- Remove all code that is no longer used.
+- Remove all code that is no longer used -- including entire Bootstrap folder.
 - Add mobile responsiveness.
   - Nav:
     - Toggle dropdown.
