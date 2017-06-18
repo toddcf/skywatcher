@@ -46,6 +46,10 @@ a {
 	text-decoration: none;
 }
 
+.cap {
+	text-transform: capitalize;
+}
+
 /* BUTTONS */
 
 .btn {
@@ -372,25 +376,26 @@ input[type="text"] {
 }
 
 table {
-	background: rgba(0, 0, 0, 0.5);
 	margin: 0 auto;
+
 	/*color: black;*/
 	/*font-family: helvetica, arial sans-serif;*/
 }
 
-th {
-	/*background-color: #4aa1f3;*/
-	font-weight: bold;
-	font-size: 18px;
-	/*color: white;*/
+th,
+td {
+	border: 1px solid #fff;
+	font-size: 90%;
 	text-align: center;
 }
 
+th {
+	padding: 4px 12px;
+	background: rgba(0, 0, 0, 0.8);
+}
+
 td {
-	background-color: #fafafa;
-	text-align: center;
-	font-weight: bold;
-	font-size: 18px;
+	background: rgba(0, 0, 0, 0.5);
 }
 
 footer a:link,

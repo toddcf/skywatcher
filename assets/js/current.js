@@ -48,7 +48,7 @@ $( document ).ready( function() {
 	function showResults( data ) {
 		return	"<p><h2 class='weather-text' id='weather-text-top'>Current Weather for " + data.name + ", " + data.sys.country + "</h2></p>" +
 				"<div><img src='http://openweathermap.org/img/w/" + data.weather[0].icon + ".png'></div>" +
-				"<p class='weather-text'>" + data.weather[0].main + " (" + data.weather[0].description + ")</p>" +
+				"<p class='weather-text cap'>" + data.weather[0].main + " (" + data.weather[0].description + ")</p>" +
 				"<p class='weather-text'>Temperature: " + data.main.temp + imperialDeg + "</p>" +
 				"<p class='weather-text'>Pressure: " + data.main.pressure + " hPa</p>" +
 				"<p class='weather-text'>Humidity: " + data.main.humidity + "%</p>" +
