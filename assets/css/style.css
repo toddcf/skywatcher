@@ -322,10 +322,9 @@ input[type="text"] {
 	font-size: 20px;
 }
 
-/*.submitAll {*/
-	/*height: 40px;*/
-	/*font-weight: bold;*/
-/*}*/
+.submitAll {
+	margin-left: 15px;
+}
 
 /* Error Handling */
 #red {
@@ -347,8 +346,6 @@ input[type="text"] {
 	margin: auto;
 	margin-bottom: 40px;
 	background: rgba(0, 0, 0, 0.5);
-	/*background-color: #4aa1f3;*/
-	/*color: white;*/
 	border-radius: 6px;
 }
 
