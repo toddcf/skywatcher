@@ -22,30 +22,20 @@ body {
 /* TEXT */
 
 h1,
-h2 {
-	font-weight: 300;
-}
+h2 { font-weight: 300; }
 
-h1 {
-	font-size: 300%;
-}
+h1 { font-size: 300%; }
 
-h2 {
-	font-size: 150%;
-}
+h2 { font-size: 150%; }
 
 h3 {
 	font-size: 100%;
 	font-weight: 400;
 }
 
-a {
-	text-decoration: none;
-}
+a { text-decoration: none; }
 
-.cap {
-	text-transform: capitalize;
-}
+.cap { text-transform: capitalize; }
 
 /* BUTTONS */
 
@@ -128,9 +118,7 @@ nav {
 	display: inline-block;
 }
 
-.nav-left a:visited {
-	color: #000 !important;
-}
+.nav-left a:visited { color: #000 !important; }
 
 /* Nav-Right */
 
@@ -172,13 +160,6 @@ nav {
 
 
 /* INDEX */
-
-/*.weather {*/
-	/* Set color to important to override its default color: */
-	/*color: #fff !important;*/
-	/*font-size: 125%;*/
-	/*font-weight: 600;*/
-/*}*/
 
 .banner {
 	width: 1050px;
@@ -237,11 +218,6 @@ nav {
 	height: 175px;
 	margin: 0 4px;
 	padding: 15px;
-	/*padding: 12px 25px 40px 25px;*/
-	
-	
-
-	/*border: 1px solid #e7e7e7;*/
 }
 
 .intro {
@@ -252,52 +228,16 @@ nav {
 	letter-spacing: 1px;
 }
 
-.btn-padding {
-	padding-top: 20px;
-}
+.btn-padding { padding-top: 20px; }
 
 .open-logo {
 	height: 20px;
 	margin-bottom: -5px;
 }
 
-/*.colDesc {
-	border: 1px solid #e7e7e7;
-	margin-bottom: 20px;
-	height: 175px;
-	margin: 0 auto 20px auto;
-	display: inline-block;
-}*/
-
-/*.colDesc h3 {
-	font-size: 18px;
-	font-weight: 600;
-	text-transform: uppercase;
-}*/
-
-/* Font Awesome Icons */
-/*.info-icon {
-	text-align: center;
-}*/
-
-/*.info-icon i {
-	font-size: 30px;
-	margin-top: 15px;
-	color: #4aa1f3;
-}*/
-
-
 /* CURRENT & FORECAST PAGES */
 
-/*.jumbotron {
-	margin-bottom: 0px;
-	background-color: #4aa1f3;
-	color: white;
-}*/
-
 .jumbo {
-	/*font-size: 40px;*/
-	/*font-weight: 600;*/
 	text-align: center;
 	margin: 25px auto 0 auto;
 }
@@ -307,9 +247,7 @@ nav {
 	text-align: center;
 }
 
-.main h2 {
-	margin-bottom: 30px;
-}
+.main h2 { margin-bottom: 30px; }
 
 #cityDiv {
 	width: 60%;
@@ -323,13 +261,10 @@ input[type="text"] {
 	font-size: 20px;
 }
 
-.submitAll {
-	margin-left: 15px;
-}
+.submitAll { margin-left: 15px; }
 
 /* Error Handling */
 #red {
-	/*color: #FF5049 !important;*/
 	animation-name: red;
     animation-duration: 0.07s;
     animation-iteration-count: 12;
@@ -350,29 +285,20 @@ input[type="text"] {
 	border-radius: 6px;
 }
 
-.weather-text {
-	/*padding-left: 50px;*/
-	/*font-weight: bold;*/
-	text-align: center;
-}
+.weather-text { text-align: center; }
 
 #weather-text-top {
 	padding-top: 20px;
 	font-size: 30px;
 }
 
-#weather-text-bottom {
-	padding-bottom: 30px;
-}
+#weather-text-bottom { padding-bottom: 30px; }
 
 #table-header {	margin-bottom: 40px; }
 
 table {
 	border-collapse: collapse;
 	margin: 0 auto 100px auto;
-
-	/*color: black;*/
-	/*font-family: helvetica, arial sans-serif;*/
 }
 
 th,

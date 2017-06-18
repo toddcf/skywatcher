@@ -7,19 +7,17 @@ A weather forecasting app using AJAX and API.
 - JavaScript
   - Typed.js (www.mattboldt.com)
 - jQuery
-- Twitter Bootstrap
 - AJAX
 - API (Open Weather Map)
 
 ## Future Iterations:
-- Fix favicon.
+- Update favicon for full mobile responsiveness.
 - INDEX:
   - Buttons:
     - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
 - CURRENT.HTML:
   - Make input fields taller.
 - FORECAST.HTML:
-  - Fix background AND FOOTER so it continues when a 16-day forecast needs to scroll down.
   - Make input fields taller.
 - Remove all code that is no longer used.
 - Add mobile responsiveness.
