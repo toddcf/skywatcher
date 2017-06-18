@@ -372,15 +372,17 @@ input[type="text"] {
 }
 
 table {
-	color: black;
-	font-family: helvetica, arial sans-serif;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 0 auto;
+	/*color: black;*/
+	/*font-family: helvetica, arial sans-serif;*/
 }
 
 th {
-	background-color: #4aa1f3;
+	/*background-color: #4aa1f3;*/
 	font-weight: bold;
 	font-size: 18px;
-	color: white;
+	/*color: white;*/
 	text-align: center;
 }
 
