@@ -19,14 +19,6 @@ body {
 	padding: 0;
 }
 
-.container {
-	height: 100vh;
-	background-image: url(../img/bg.jpg);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-}
-
 /* TEXT */
 
 h1,
@@ -371,7 +363,7 @@ input[type="text"] {
 #table-header {	margin-bottom: 40px; }
 
 table {
-	margin: 0 auto 80px auto;
+	margin: 0 auto 100px auto;
 
 	/*color: black;*/
 	/*font-family: helvetica, arial sans-serif;*/
