@@ -363,6 +363,7 @@ input[type="text"] {
 #table-header {	margin-bottom: 40px; }
 
 table {
+	border-collapse: collapse;
 	margin: 0 auto 100px auto;
 
 	/*color: black;*/
@@ -377,7 +378,7 @@ td {
 }
 
 th {
-	padding: 4px 12px;
+	padding: 12px;
 	background: rgba(0, 0, 0, 0.8);
 }
 
