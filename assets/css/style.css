@@ -34,6 +34,11 @@ h2 {
 	font-size: 150%;
 }
 
+h3 {
+	font-size: 100%;
+	font-weight: 400;
+}
+
 a {
 	text-decoration: none;
 }
@@ -384,6 +389,9 @@ th {
 
 td {
 	background: rgba(0, 0, 0, 0.5);
+	font-weight: 300;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 footer a:link,
