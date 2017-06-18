@@ -371,7 +371,7 @@ input[type="text"] {
 #table-header {	margin-bottom: 40px; }
 
 table {
-	margin: 0 auto;
+	margin: 0 auto 80px auto;
 
 	/*color: black;*/
 	/*font-family: helvetica, arial sans-serif;*/

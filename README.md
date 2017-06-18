@@ -19,6 +19,7 @@ A weather forecasting app using AJAX and API.
 - CURRENT.HTML:
   - Make input fields taller.
 - FORECAST.HTML:
+  - Fix background AND FOOTER so it continues when a 16-day forecast needs to scroll down.
   - Make input fields taller.
 - Remove all code that is no longer used.
 - Add mobile responsiveness.
