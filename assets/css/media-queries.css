@@ -15,5 +15,13 @@
 
 /*Small Phones (480px or less (usually 320px min)) */
 @media only screen and (max-width: 480px) {
+	.mobile-nav-icon {
+		margin-left: 10px;
+	}
 
+	.nav-right li {
+		/*display: inline-block;*/
+		margin-bottom: 15px;
+		/*margin-left: 40px;*/
+	}
 }

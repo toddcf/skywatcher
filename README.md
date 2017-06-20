@@ -13,7 +13,7 @@ A weather forecasting app using AJAX and API.
 ## Future Iterations:
 - Add mobile responsiveness.
   - Nav:
-    - Toggle dropdown.
+    - Mobile nav should be collapsed by default.
     - jQuery window resize.
   - Update favicon for full mobile responsiveness.
 - INDEX:

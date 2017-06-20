@@ -14,6 +14,9 @@ $( document ).ready( function() {
 
 	// MOBILE NAV
 
+	var icon = $( ".js--nav-icon i" );
+	console.log( "Icon class: " + icon.hasClass() );
+
 	$( ".js--nav-icon" ).click( function() {
 	
 		var nav = $( ".js--nav-right" );
@@ -32,7 +35,7 @@ $( document ).ready( function() {
 		
 	} );
 
-	// Ensure that .main-nav reappears after mobile nav has been closed and screen size increased again:
+	// Ensure that .nav-right reappears after mobile nav has been closed and screen size increased again:
 	// This works basically like a media query for jQuery, where we can take different actions depending on the screen width
 	$( window ).resize( function() {
 

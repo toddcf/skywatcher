@@ -150,6 +150,10 @@ nav {
 	border-bottom: 2px solid #e67e22;
 }
 
+.mobile-nav-icon {
+	cursor: pointer;
+}
+
 /* Get the nav_list id and its two child elements: */
 /*#nav_list > li > a {*/
 	/*color: #4aa1f3 !important;*/
