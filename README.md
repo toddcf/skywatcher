@@ -12,6 +12,7 @@ A weather forecasting app using AJAX and API.
 
 ## Future Iterations:
 - Add mobile responsiveness.
+  - Resize Open Weather Map logo.
   - (768-1023):
     - Make text color easier to read.
   - Nav:
