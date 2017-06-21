@@ -7,13 +7,25 @@
 
 	.banner {
 		width: 90%;
-		/*height: 125px;*/
 		margin-top: 30px;
-		/*padding: 6px;*/
 	}
 
-	.banner-text {
-		padding-top: 30px;
+	.description {
+		width: 90%;
+	}
+
+	.description-col {
+		/*display: inline-block;*/
+		/*height: 175px;*/
+		margin: 0 3px;
+		/*padding: 15px;*/
+	}
+
+	.intro {
+		line-height: 170%;
+		text-align: justify;
+		font-size: 88%;
+		/*letter-spacing: 1px;*/
 	}
 
 }
