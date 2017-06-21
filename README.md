@@ -12,6 +12,8 @@ A weather forecasting app using AJAX and API.
 
 ## Future Iterations:
 - Add mobile responsiveness.
+  - (768-1023):
+    - Make text color easier to read.
   - Nav:
     - Icon should be positioned to the right.
     - Mobile nav should be collapsed by default.
