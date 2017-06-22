@@ -12,9 +12,10 @@ A weather forecasting app using AJAX and API.
 
 ## Future Iterations:
 - CURRENT:
-  - Make input fields taller.
+  - Move "Enter City" into the actual field as a placeholder.
+  - Reposition and resize button.
 - FORECAST:
-  - Make input fields taller.
+  - Reposition and resize button.
 - Add mobile responsiveness.
   - Resize Open Weather Map logo.
   - 1024-1200:

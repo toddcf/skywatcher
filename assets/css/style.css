@@ -265,9 +265,13 @@ nav {
 	text-align: center;
 }
 
+/* INPUT FIELDS */
+
 input[type="text"] {
-	height: 40px;
-	font-size: 20px;
+	/*height: 60px;*/
+	font-size: 150%;
+	padding: 15px;
+	border-radius: 10px;
 }
 
 .submitAll { margin-left: 15px; }
