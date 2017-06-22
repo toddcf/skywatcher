@@ -11,24 +11,28 @@ A weather forecasting app using AJAX and API.
 - API (Open Weather Map)
 
 ## Future Iterations:
-- Add mobile responsiveness.
-  - Resize Open Weather Map logo.
-  - (768-1023):
-    - Make text color easier to read.
-  - Nav:
-    - Icon should be positioned to the right.
-    - Mobile nav should be collapsed by default.
-    - jQuery window resize.
-  - Update favicon for full mobile responsiveness.
 - INDEX:
   - Buttons:
     - Make text thicker.
-    - Center buttons within their divs properly.
 - CURRENT.HTML:
   - Make input fields taller.
 - FORECAST.HTML:
   - Make input fields taller.
 - Confirm that Bootstrap folder is no longer used -- and remove it.
+- Add mobile responsiveness.
+  - Resize Open Weather Map logo.
+  - 1024-1200:
+    - DONE.
+  - 768-1023:
+    - Make text color easier to read.
+    - Nav:
+      - Icon should be positioned to the right.
+      - Mobile nav should be collapsed by default.
+      - jQuery window resize.
+  - 481-767:
+    - 
+  - Below 480:
+    - 
 - UI:
   - Pressure: Add comma placeholders.
   - Temperature: No decimal places.
