@@ -22,7 +22,8 @@ A weather forecasting app using AJAX and API.
   - Update favicon for full mobile responsiveness.
 - INDEX:
   - Buttons:
-    - Style hover effects, colors, size & shape, etc. Create a more appealing call to action.
+    - Make text thicker.
+    - Center buttons within their divs properly.
 - CURRENT.HTML:
   - Make input fields taller.
 - FORECAST.HTML:

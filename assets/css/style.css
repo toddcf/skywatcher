@@ -42,7 +42,9 @@ a { text-decoration: none; }
 .btn {
 	/* There's gotta be a much better way to do this:; */
 	/*margin-top: 5px;*/
-	margin-left: 100px;
+	/*margin-left: 100px;*/
+	/*margin: 0 auto;*/
+	/*font-weight: 400;*/
 }
 
 /*The links will look the same before and after they've been clicked:*/
@@ -62,14 +64,14 @@ input[type=submit] {
 .btn-full:visited,
 input[type=submit] {
 	background-color: #e67e22;
-	border: 1px solid #e67e22;
+	border: 2px solid #e67e22;
 	color: #fff;
 	/*margin-right: 15px;*/
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-	border: 1px solid #e67e22;
+	border: 2px solid #e67e22;
 	color: #e67e22;
 }
 
@@ -85,12 +87,12 @@ input[type=submit]:active {
 .btn-full:hover,
 .btn-full:active,
 input[type=submit] {
-	border: 1px solid #cf6d17;
+	border: 2px solid #cf6d17;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-	border: 1px solid #cf6d17;
+	border: 2px solid #cf6d17;
 	color: #fff;
 }
 
