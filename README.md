@@ -11,9 +11,6 @@ A weather forecasting app using AJAX and API.
 - API (Open Weather Map)
 
 ## Future Iterations:
-- INDEX:
-  - Buttons:
-    - Make text thicker.
 - CURRENT:
   - Make input fields taller.
 - FORECAST:

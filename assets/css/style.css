@@ -44,7 +44,7 @@ a { text-decoration: none; }
 	/*margin-top: 5px;*/
 	/*margin-left: 100px;*/
 	/*margin: 0 auto;*/
-	/*font-weight: 400;*/
+	font-weight: 400;
 }
 
 /*The links will look the same before and after they've been clicked:*/
@@ -53,7 +53,6 @@ a { text-decoration: none; }
 input[type=submit] {
 	display: inline-block;
 	padding: 10px 30px;
-	font-weight: 300;
 	text-decoration: none;
 	border-radius: 200px;
 	-webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
