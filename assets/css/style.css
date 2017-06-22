@@ -224,9 +224,10 @@ nav {
 .description-col {
 	display: inline-block;
 	vertical-align: top;
-	height: 175px;
+	height: 210px;
 	margin: 0 4px;
 	padding: 15px;
+	border-radius: 5px;
 }
 
 .intro {

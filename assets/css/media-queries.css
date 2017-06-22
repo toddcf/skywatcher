@@ -1,5 +1,5 @@
 /* Smaller Computer Screens (1024px to 1200px) */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1420px) {
 	
 	h1 { font-size: 200%; }
 
@@ -15,10 +15,8 @@
 	}
 
 	.description-col {
-		/*display: inline-block;*/
-		/*height: 175px;*/
 		margin: 0 3px;
-		/*padding: 15px;*/
+		background: rgba(0, 0, 0, 0.5);
 	}
 
 	.intro {
@@ -70,10 +68,10 @@
 		/*letter-spacing: 1px;*/
 	}
 
-	.btn {
+	/*.btn {*/
 		/* There's gotta be a much better way to do this:; */
-		margin-left: 30px;
-	}
+		/*margin-left: 30px;*/
+	/*}*/
 
 	.open-logo {
 		height: 15px;
