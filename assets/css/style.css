@@ -268,10 +268,10 @@ nav {
 /* INPUT FIELDS */
 
 input[type="text"] {
-	/*height: 60px;*/
 	font-size: 150%;
 	padding: 15px;
 	border-radius: 10px;
+	margin: 15px;
 }
 
 .submitAll { margin-left: 15px; }
