@@ -230,9 +230,7 @@ nav {
 	margin: 0 4px;
 	padding: 15px;
 	border-radius: 5px;
-}
-
-.description-col {
+	/* Shaded background divs fade out when screen is full size: */
 	background: rgba(0, 0, 0, 0);
 	transition: background 1.5s;
 }

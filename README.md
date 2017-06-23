@@ -18,15 +18,12 @@ A weather forecasting app using AJAX and API.
 - Add mobile responsiveness.
   - Resize Open Weather Map logo.
   - 1420 and below:
-    - Make text easier to read. FADE IN a shaded div background.
-      - Make sure to fade it back out if the window size increases again. 
+    - 
   - 800 and below:
     - Mobile Nav:
       - Icon should be positioned to the right.
       - Mobile nav should be collapsed by default.
       - jQuery window resize.
-    - Container must now extend below 100vh because divs are stacked.
-    - Footer must drop, too.
   - 481-767:
     - 
   - Below 480:
