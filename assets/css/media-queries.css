@@ -19,6 +19,7 @@
 	.description-col {
 		margin: 0 3px;
 		background: rgba(0, 0, 0, 0.5);
+		transition: background 3s; /* Transition takes 3 seconds. */
 	}
 
 	.intro {
