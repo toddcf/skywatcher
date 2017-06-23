@@ -174,8 +174,8 @@ nav {
 
 .banner {
 	width: 1050px;
-	height: 125px;
-	margin: 50px auto 150px auto;
+	min-height: 175px;
+	margin: 50px auto;
 	padding: 6px;
 }
 
@@ -187,9 +187,9 @@ nav {
 .categories {
 	text-align: center;
 	letter-spacing: 2px;
-	margin-top: 50px auto;
+	/*margin-top: 50px auto;*/
 	padding-top: 20px;
-	padding-bottom: 30px;
+	/*padding-bottom: 30px;*/
 }
 
 /*ul#list_item {
@@ -220,7 +220,7 @@ nav {
 
 .description {
 	width: 75%;
-	margin: 180px auto 0 auto;
+	margin: 100px auto;
 }
 
 .description-col {
