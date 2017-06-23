@@ -1,4 +1,6 @@
-/* Smaller Computer Screens (1024px to 1200px) */
+/* Break points based on when aesthetic issues occur, not device sizes. */
+
+/* 1024 to 1420 */
 @media only screen and (max-width: 1420px) {
 	
 	h1 { font-size: 200%; }
@@ -27,10 +29,10 @@
 
 }
 
-/* Tablets (768px to 1023px) */
+/* 800 to 1023 */
 @media only screen and (max-width: 1023px) {
 	
-	h1 { font-size: 200%; }
+	/*h1 { font-size: 200%; }*/
 
 	h2 { font-size: 100%; }
 
@@ -79,12 +81,39 @@
 	/*}*/
 }
 
-/* Medium Phones (481px to 767px) */
-@media only screen and (max-width: 767px) {
+
+@media only screen and (max-width: 800px) {
+
+	/* Single */
+	/*.container {
+		height: 100vh;
+		background-image: url(../img/bg.jpg);
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}*/
+
+	/* Scroll */
+	.container {
+		/*background-image: url(../img/bg.jpg);*/
+		min-height: 100vh;
+		/*background-size: cover;*/
+		/*background-repeat: repeat-y;*/
+		/*background-position: center;*/
+		/*background-attachment: local !important;*/
+	}
+
+	.description-col {
+		display: block;
+		width: 50%;
+		/*height: 175px;*/
+		margin: 10px auto;
+		/*padding: 15px;*/
+	}
 
 }
 
-/*Small Phones (480px or less (usually 320px min)) */
+/* (Usually 320px min) */
 @media only screen and (max-width: 480px) {
 	.mobile-nav-icon {
 		

@@ -12,21 +12,20 @@ A weather forecasting app using AJAX and API.
 
 ## Future Iterations:
 - CURRENT:
-  - Move "Enter City" into the actual field as a placeholder.
   - Reposition and resize button.
 - FORECAST:
   - Reposition and resize button.
 - Add mobile responsiveness.
   - Resize Open Weather Map logo.
-  - 1024-1200:
-    - DONE.
-  - 768-1023:
+  - 1420 and below:
+    - Make text easier to read. FADE IN a shaded div background.
+      - Make sure to fade it back out if the window size increases again. 
+  - 800 and below:
     - Mobile Nav:
       - Icon should be positioned to the right.
       - Mobile nav should be collapsed by default.
       - jQuery window resize.
-    - Make text easier to read. FADE IN a shaded div background.
-      - Make sure to fade it back out if the window size increases again.
+    - Container must now extend below 100vh because divs are stacked.
   - 481-767:
     - 
   - Below 480:
