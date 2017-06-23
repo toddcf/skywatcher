@@ -84,31 +84,16 @@
 
 @media only screen and (max-width: 800px) {
 
-	/* Single */
-	/*.container {
-		height: 100vh;
-		background-image: url(../img/bg.jpg);
-		background-size: cover;
-		background-position: center;
-		background-attachment: fixed;
-	}*/
-
-	/* Scroll */
-	.container {
-		/*background-image: url(../img/bg.jpg);*/
-		min-height: 100vh;
-		/*background-size: cover;*/
-		/*background-repeat: repeat-y;*/
-		/*background-position: center;*/
-		/*background-attachment: local !important;*/
-	}
-
 	.description-col {
 		display: block;
 		width: 50%;
 		/*height: 175px;*/
 		margin: 10px auto;
 		/*padding: 15px;*/
+	}
+
+	.description {
+		margin-bottom: 100px;
 	}
 
 }

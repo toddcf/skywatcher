@@ -1,24 +1,4 @@
-@media only screen and (min-width: 801px) {
-
-	.container {
-		height: 100vh;
-		background-image: url(../img/bg.jpg);
-		background-size: cover;
-		background-position: center;
-		background-attachment: fixed;
-	}
-}
-
-
-
-@media only screen and (max-width: 800px) {
-	
-	.container {
-		background-image: url(../img/bg.jpg);
-		min-height: 100vh;
-		background-size: cover;
-		/*background-repeat: repeat-y;*/
-		background-position: center;
-		/*background-attachment: local !important;*/
-	}
-}
+/*html {*/
+	/*background-image: url(../img/bg.jpg);*/
+	/*background-size: cover;*/
+/*}*/

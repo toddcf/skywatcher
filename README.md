@@ -26,6 +26,7 @@ A weather forecasting app using AJAX and API.
       - Mobile nav should be collapsed by default.
       - jQuery window resize.
     - Container must now extend below 100vh because divs are stacked.
+    - Footer must drop, too.
   - 481-767:
     - 
   - Below 480:
