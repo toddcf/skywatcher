@@ -68,7 +68,7 @@
 @media only screen and (max-width: 850px) {
 
 	.mobile-nav-icon {
-		
+		display: inline-block;
 	}
 
 	/*.nav-right li {*/

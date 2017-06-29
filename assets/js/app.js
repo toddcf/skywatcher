@@ -14,8 +14,8 @@ $( document ).ready( function() {
 
 	// MOBILE NAV
 
-	var icon = $( ".js--nav-icon i" );
-	console.log( "Icon class: " + icon.hasClass() );
+	// var icon = $( ".js--nav-icon" );
+	// console.log( "Icon class: " + icon.hasClass() );
 
 	$( ".js--nav-icon" ).click( function() {
 	
@@ -40,7 +40,7 @@ $( document ).ready( function() {
 	$( window ).resize( function() {
 
 		var nav = $( ".js--nav-right" );
-		var icon = $( ".js--nav-icon i" );
+		var icon = $( ".js--nav-icon i" ); /* Do I need to remove that i? */
 
 		if ( $( window ).width() > 767 ) {
 			nav.css( "display", "block" );
