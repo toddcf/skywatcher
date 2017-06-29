@@ -109,5 +109,12 @@
 		width: 75%;
 	}
 
+	footer {
+		font-size: 65%;
+	}
+
+	.footer-text {
+		padding-top: 10px;
+	}
 	
 }
