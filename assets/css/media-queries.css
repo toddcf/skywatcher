@@ -1,7 +1,7 @@
 /* Break points based on when aesthetic issues occur, not device sizes. */
 
 /* 1024 to 1420 */
-@media only screen and (max-width: 1420px) {
+@media only screen and (max-width: 1435px) {
 	
 	h1 { font-size: 200%; }
 
