@@ -38,7 +38,6 @@
 	h2 { font-size: 100%; }
 
 	.mobile-nav-icon {
-		/*display: inline-block;*/
 		margin-left: 10px;
 	}
 
@@ -52,34 +51,32 @@
 	}
 
 	.description-col {
-		/*display: inline-block;*/
-		/*height: 175px;*/
 		margin: 0 1px;
-		/*padding: 15px;*/
 	}
 
 	.intro {
-		/*line-height: 150%;*/
-		/*text-align: justify;*/
 		font-size: 80%;
-		/*letter-spacing: 1px;*/
 	}
-
-	/*.btn {*/
-		/* There's gotta be a much better way to do this:; */
-		/*margin-left: 30px;*/
-	/*}*/
 
 	.open-logo {
 		height: 15px;
 		margin-bottom: -5px;
 	}
 
+}
+
+@media only screen and (max-width: 850px) {
+
+	.mobile-nav-icon {
+		
+	}
+
 	/*.nav-right li {*/
 		/*display: inline-block;*/
 		/*margin-bottom: 15px;*/
 		/*margin-left: 40px;*/
-	/*}*/
+	/*}*/	
+
 }
 
 
@@ -101,10 +98,7 @@
 
 /* (Usually 320px min) */
 @media only screen and (max-width: 600px) {
-	.mobile-nav-icon {
-		
-	}
-
+	
 	.description-col {
 		width: 75%;
 	}

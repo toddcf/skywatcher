@@ -15,19 +15,12 @@ A weather forecasting app using AJAX and API.
   - Reposition and resize button.
 - FORECAST:
   - Reposition and resize button.
-- Add mobile responsiveness.
-  - Resize Open Weather Map logo.
-  - 1420 and below:
-    - 
-  - 800 and below:
+- Add mobile responsiveness. 
+  - 850 and below:
     - Mobile Nav:
       - Icon should be positioned to the right.
       - Mobile nav should be collapsed by default.
-      - jQuery window resize.
-  - 481-767:
-    - 
-  - Below 480:
-    - 
+      - jQuery window resize. 
 - UI:
   - Pressure: Add comma placeholders.
   - Temperature: No decimal places.
