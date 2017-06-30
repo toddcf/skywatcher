@@ -18,7 +18,7 @@ A weather forecasting app using AJAX and API.
 - Add mobile responsiveness. 
   - 850 and below:
     - Mobile Nav:
-      - Dropdown should be a vertical list.
+      - Run webkit. On the deployed site, the mobile nav icon overlaps the dropdown list.
       - jQuery window resize. 
 - UI:
   - Pressure: Add comma placeholders.

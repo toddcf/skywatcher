@@ -14,9 +14,6 @@ $( document ).ready( function() {
 
 	// MOBILE NAV
 
-	// var icon = $( ".js--nav-icon" );
-	// console.log( "Icon class: " + icon.hasClass() );
-
 	$( ".js--nav-icon" ).click( function() {
 	
 		var nav = $( ".js--nav-right" );
