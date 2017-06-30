@@ -65,6 +65,8 @@
 
 	.nav-right {
 		display: none;
+		margin-right: -30px;
+		float: right;
 	}
 
 	.mobile-nav-icon {
@@ -72,11 +74,12 @@
 		margin-left: 10px;
 	}
 
-	/*.nav-right li {*/
-		/*display: inline-block;*/
-		/*margin-bottom: 15px;*/
+	.nav-right li {
+		display: block;
+		margin-bottom: 15px;
+		text-align: right;
 		/*margin-left: 40px;*/
-	/*}*/	
+	}	
 
 }
 
