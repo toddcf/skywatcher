@@ -1,6 +1,8 @@
 # Skywatcher
 A weather forecasting app using AJAX and API.
 
+![Skywatcher](https://github.com/toddcf/skywatcher-api/blob/master/assets/img/bg.jpg "Skywatcher")
+
 ## Technologies Used:
 - HTML5
 - CSS3
